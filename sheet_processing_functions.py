@@ -142,20 +142,43 @@ def import_transactions_from_ynab(sh=sh):
     ryder_expenses_upload = pd.concat([ryder_expenses_upload, wks_df]).drop_duplicates(keep=False).reset_index(drop=True)
 
     print('')
-    for index, row in ryder_expenses_upload.iterrows():
-        row_list = [row.Timestamp, row.Payee, row.Amount,
-                    row.Purpose, row.Description]
+    print(ryder_expenses_upload)
+    print('')
     
     
-        wks.append_table(row_list)
+    while True:
+        decision = input('Upload to Expenses Tracker? y/n >> ')
+        
+        if decision[0].lower() == 'y':
+            print('')
+            for index, row in ryder_expenses_upload.iterrows():
+                row_list = [row.Timestamp, row.Payee, row.Amount,
+                            row.Purpose, row.Description]
+            
+            
+                wks.append_table(row_list)
 
-        print(f'Appending ${row.Amount:.0f} - {row.Description} to tracker.')
-    
-    print(f'\nUploaded ${ryder_expenses_upload.Amount.sum():.0f} ' \
-          f'over {ryder_expenses_upload.shape[0]} transactions.')
+                print(f'Appending ${row.Amount:.0f} - {row.Description} to tracker.')
+            
+            print(f'\nUploaded ${ryder_expenses_upload.Amount.sum():.0f} ' \
+                  f'over {ryder_expenses_upload.shape[0]} transactions.')  
+            
+            break
+
+        elif decision[0].lower() == 'n':
+            print('Not entering.')
+            break
+            
+        else:
+            print(f'Did not understand entry ({decision}). Try again.')
+
+
+
+          
+
     
     # print('')
-    # x = input("Press ENTER to exit.")
+    # x = input("Done. Press ENTER.")
 
 def archive_sheet_and_clear(sheet=sh):
 
@@ -169,3 +192,18 @@ def archive_sheet_and_clear(sheet=sh):
     wks = sh.worksheet('index', 0)
     sh.add_worksheet(tab_title, src_worksheet=wks)
     wks.clear(start='A3')
+
+
+def show_spender_information(sheet=sh):
+    w_df = load_and_process_sheet(sheet, tab=0)
+    spender_list = w_df.Payee.unique()
+
+    amounts_list = []
+
+    for i, name in enumerate(spender_list):
+        total_shared_transactions_amt = w_df[w_df.Purpose == 'for us'].sum()
+        spenders_shared_transactions_amt = (
+                w_df[(w_df.Payee == name) & w_df.Purpose == 'for us']
+                )
+
+        print(total_shared_transactions_amt)

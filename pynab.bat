@@ -1,1 +1,1 @@
-python pynab_pygsheets.py
+python pynab_expenses_menu.py
