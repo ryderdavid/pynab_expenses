@@ -10,10 +10,14 @@ import os
 import pandas as pd
 from pynabapi import YnabClient
 import pygsheets
+import datetime
 import time
+import re
 
 #%%
 
+
+# should create google_ledger object
 with open('keys/google_expenses_sheet_key.txt', 'r') as g_sheet_id_key_txt:
     GOOGLE_SHEET_ID_KEY = g_sheet_id_key_txt.readline().strip()
 
@@ -22,45 +26,65 @@ gc = pygsheets.authorize(service_account_file='keys/service_account_credentials.
 sh = gc.open_by_key(GOOGLE_SHEET_ID_KEY)
 
 
+#%% GOOGLE FUNCTIONS
+
 def load_and_process_sheet(sh=sh, tab=0):
+
     w = sh.worksheet('index', tab)
     ret_df = w.get_as_df(has_header=True, start='A2')
-    ret_df.loc[:, 'Amount'] = ret_df.Amount.astype(str).str.extract(r'(\d+)')
-    ret_df.loc[:, 'Timestamp'] = pd.to_datetime(ret_df.Timestamp)
+    # dollars = ret_df.Amount.astype(str).str.extract(r'(\d+)')
+    # ret_df.loc[:, 'Amount'] = ret_df.Amount.astype(str).str.extract(r'(\d+)')
+    ret_df.Amount = ret_df.Amount.astype(str).str.extract(r'(\d+)')
+    # ret_df.loc[:, 'Timestamp'] = pd.to_datetime(ret_df.Timestamp)
+    ret_df.Timestamp = pd.to_datetime(ret_df.Timestamp)
 
     return(ret_df.reset_index(drop=True))
+    # return(dollars)
 
+def load_and_process_all_sheets(sh=sh):
 
-def import_transactions_from_ynab(sh=sh):
+    colnames = ['Timestamp', 'Payee', 'Amount', 'Purpose', 'Description']
+    all_sheets = pd.DataFrame(columns = colnames)
 
-    def get_last_trns_date(sh=sh):
+    for sheetnum in range(len(sh.worksheets())):
+
+        curr_sheet = load_and_process_sheet(sh, sheetnum)
     
-        max_date = pd.to_datetime('1900-12-31')
+        sheet_title = re.search(r'(?<=Worksheet ).+(?= index)',
+                                str(sh.worksheets()[1])).group(0)
     
-        for sheet_num in range(len(sh.worksheets())):
-            worksheet = load_and_process_sheet(sh, sheet_num)
-            ry_ws_transactions = worksheet[worksheet.Payee == 'Ryder']
-        
-            # if no Ryder transactions then go to next sheet
-            if ry_ws_transactions.shape[0] == 0:
-                continue
-        
-            else:
-                worksheet_max_date = ry_ws_transactions.Timestamp.max()
-                max_date = worksheet_max_date if worksheet_max_date > max_date else max_date
-
-
-        return(max_date.strftime('%Y-%m-%d'))
-
-
-    since_date = get_last_trns_date(sh)
+        if curr_sheet.shape[1] != 5:
     
+            raise Exception(f'Worksheet {sheet_title} (index {sheetnum} has the '
+                            f'wrong dimensions.')
     
-    """
-    YNAB API SECTION
-    -------------------
-    To document
-    """
+        # print(curr_sheet.columns)
+        all_sheets = all_sheets.append(curr_sheet)
+
+    return(all_sheets.sort_values('Timestamp', ascending=False))
+
+#%%
+def get_last_trns_date(sh=sh, payee_name = 'Ryder', format = 'datetime'):
+
+    # Get all transactions in Google Sheets
+    __all_trans = load_and_process_all_sheets()
+
+    __max_date = (
+            __all_trans
+            .loc[__all_trans.Payee == payee_name]['Timestamp']
+            .max()
+            )
+
+    if format == 'datetime':
+        return(__max_date)
+    elif format == 'string':
+        return(__max_date.strftime('%Y-%m-%d'))
+
+
+#%%
+def get_trans_from_ynab(sh=sh, since_date=get_last_trns_date()):
+
+    # since_date = get_last_trns_date()
 
     with open('keys/ynab_api_key.txt', 'r') as y_api_key_txt:
         YNAB_CLIENT_KEY = y_api_key_txt.readline().strip()
@@ -68,22 +92,13 @@ def import_transactions_from_ynab(sh=sh):
     with open('keys/ynab_budget_id.txt', 'r') as y_bud_id_txt:
         YNAB_BUDGET_ID = y_bud_id_txt.readline().strip()
 
+    yc = YnabClient(YNAB_CLIENT_KEY)
 
-
-    ynab_client = YnabClient(
-        YNAB_CLIENT_KEY)
-
-
-
-    # my_budgets = ynab_client.get_budget()
-    
-    all_transactions = ynab_client.get_transaction(
-        budget_id=YNAB_BUDGET_ID)
-
+    all_transactions = yc.get_transaction(budget_id=YNAB_BUDGET_ID)
 
     column_names = ['timestamp', 'payee', 'memo', 'flag', 'amount']
     listofitems = []
-    
+
     for item in all_transactions:
         listofitems.append(str(item.date)        + ',,,' + 
                            str(item.payee_name)  + ',,,' +
@@ -91,77 +106,127 @@ def import_transactions_from_ynab(sh=sh):
                            str(item.flag_color)  + ',,,' +
                            str(item.amount)
                           )
-    
-    
+
     ynab_df = pd.Series(listofitems).str.split(',,,', expand=True)
     ynab_df.columns = column_names
     ynab_df.timestamp = pd.to_datetime(ynab_df.timestamp)
     ynab_df.amount = ynab_df.amount.astype(int) / -1000
-    
-    
-    # get just items past a certain date and that are shared or 'for you' expenses
+
     ynab_df_filter = (
             ynab_df[(ynab_df.timestamp >= since_date) &
                     (ynab_df.flag.isin(['red', 'purple']))]
         )
-    
-    # print(f'\nMost recent day with Ryder\'s transactions is {since_date}. ' \
-    #       f'Getting shared items since then.')
-    # time.sleep(1)
-    # print(f'\nFound {ynab_df_filter.shape[0]} transactions. Uploading them!\n')
-    
-    
-    """
-    GOOGLE SHEET UPLOAD
-    """
-    
-    ryder_expenses_upload = pd.DataFrame(columns = ['Timestamp', 'Payee',
+
+    ret_df = pd.DataFrame(columns = ['Timestamp', 'Payee',
                                                     'Amount', 'Purpose',
                                                     'Description'])
-    
-    ryder_expenses_upload.Timestamp = ynab_df_filter.timestamp.astype(str) + ' 00:00:00'
-    ryder_expenses_upload.Payee = 'Ryder'
-    ryder_expenses_upload.Amount = ynab_df_filter.amount.round(0)
+
+
+    ret_df.Timestamp = ynab_df_filter.timestamp.astype(str) + ' 00:00:00'
+    ret_df.Payee = 'Ryder'
+    ret_df.Amount = ynab_df_filter.amount.round(0).astype(int).astype(str)
     
     # apply for us for red flags, and for you for purple flags
-    ryder_expenses_upload.Purpose = (ynab_df_filter.flag.apply(lambda x:
+    ret_df.Purpose = (ynab_df_filter.flag.apply(lambda x:
         'for us' if x == 'red' else 'for you' if x == 'purple' else '-1'))
     
-    ryder_expenses_upload.Description = (
+    ret_df.Description = (
             (ynab_df_filter.payee + ' - ' + ynab_df_filter.memo)
             .str.replace(' - None', '')
             )
-    
-    
-    #%% Append to Expenses! Spreadsheet
-    wks = sh.worksheet('index', 0)
 
-    wks_df = wks.get_as_df(has_header=True, start='A2')
-    wks_df = wks_df[(wks_df.Payee == 'Ryder') & (wks_df.Timestamp >= since_date)]
+    return(ret_df)
 
-    ryder_expenses_upload = pd.concat([ryder_expenses_upload, wks_df]).drop_duplicates(keep=False).reset_index(drop=True)
+
+
+def get_expenses_from_google(sh=sh, since_date='1900-01-01'):
+
+    colnames = ['Timestamp', 'Payee', 'Amount', 'Purpose', 'Description']
+    all_sheets = pd.DataFrame(columns = colnames)
+
+    for sheetnum in range(len(sh.worksheets())):
+
+        curr_sheet = load_and_process_sheet(sh, sheetnum)
+    
+        sheet_title = re.search(r'(?<=Worksheet ).+(?= index)',
+                                str(sh.worksheets()[1])).group(0)
+    
+        if curr_sheet.shape[1] != 5:
+    
+            raise Exception(f'Worksheet {sheet_title} (index {sheetnum} has the '
+                            f'wrong dimensions.')
+    
+        # print(curr_sheet.columns)
+        all_sheets = all_sheets.append(curr_sheet)
+
+
+
+    since_date_datetime = datetime.datetime.strptime(since_date, '%Y-%m-%d')
+
+    ret_expenses_from_google = (
+            all_sheets
+                .loc[all_sheets.Timestamp >= since_date_datetime]
+                .sort_values('Timestamp', ascending = False)
+
+            )
+
+    ret_expenses_from_google.Timestamp = (
+            ret_expenses_from_google.Timestamp.astype(str)
+            )
+
+    return(ret_expenses_from_google)
+
+
+#%%
+def get_new_ynab_expenses_to_upload():
+
+    # Get most recent date from Google expenses
+    since_date=get_last_trns_date(format='string')
+    
+    # Get most recent Google shared expenses
+    recent_from_gs = get_expenses_from_google(since_date=since_date)
+    
+    # Get my recent YNAB expenses
+    recent_from_ynab = get_trans_from_ynab(since_date=since_date)
+    
+    # Set operation: return only those YNAB expenses NOT also in Google sheets
+    in_ynab_not_google = (
+            recent_from_ynab.merge(recent_from_gs, how = 'left', indicator = True)
+            .query('_merge == \'left_only\'')
+            .drop('_merge', 1)
+            )
+
+    return(in_ynab_not_google)
+
+
+
+
+#%%
+def append_to_expenses_sheet(expenses_to_upload):
 
     print('')
-    print(ryder_expenses_upload)
+    print(expenses_to_upload)
     print('')
-    
-    
+
+    this_month = sh.worksheet('index', 0)
+
+
     while True:
         decision = input('Upload to Expenses Tracker? y/n >> ')
         
         if decision[0].lower() == 'y':
             print('')
-            for index, row in ryder_expenses_upload.iterrows():
+            for index, row in expenses_to_upload.iterrows():
                 row_list = [row.Timestamp, row.Payee, row.Amount,
                             row.Purpose, row.Description]
             
             
-                wks.append_table(row_list)
+                this_month.append_table(row_list)
 
-                print(f'Appending ${row.Amount:.0f} - {row.Description} to tracker.')
+                print(f'Appending ${float(row.Amount):.0f} - {row.Description} to tracker.')
             
-            print(f'\nUploaded ${ryder_expenses_upload.Amount.sum():.0f} ' \
-                  f'over {ryder_expenses_upload.shape[0]} transactions.')  
+            print(f'\nUploaded ${expenses_to_upload.Amount.astype(float).sum():.0f} ' \
+                  f'over {expenses_to_upload.shape[0]} transactions.')
             
             break
 
@@ -174,11 +239,11 @@ def import_transactions_from_ynab(sh=sh):
 
 
 
+
+
           
 
-    
-    # print('')
-    # x = input("Done. Press ENTER.")
+
 
 def archive_sheet_and_clear(sheet=sh):
 

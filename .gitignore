@@ -122,9 +122,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Specific Keys
-keys/google_expenses_sheet_key.txt
-keys/service_account_credentials.json
-keys/ynab_api_key.txt
-keys/ynab_budget_id.txt
+
 

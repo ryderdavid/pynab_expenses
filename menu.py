@@ -7,7 +7,7 @@ Created on Sun Sep 15 10:33:55 2019
 
 # import os
 import pygsheets
-import sheet_processing_functions
+import sheet_processing_functions as spf
 import validation_logic
 #%%
 
@@ -33,14 +33,14 @@ if __name__ == "__main__":
             menu_choice = validation_logic.get_int('Enter a choice: ')
 
             if menu_choice == 1:
-                new_expenses = get_new_ynab_expenses_to_upload()
-                append_to_expenses_sheet(new_expenses)
+                new_expenses = spf.get_new_ynab_expenses_to_upload()
+                spf.append_to_expenses_sheet(new_expenses)
 
                 continue
             elif menu_choice == 2:
                 pass
             elif menu_choice == 3:
-                sheet_processing_functions.archive_sheet_and_clear()
+                spf.archive_sheet_and_clear()
                 print('\nArchived this month\'s data.')
             elif menu_choice == 4:
                 break
