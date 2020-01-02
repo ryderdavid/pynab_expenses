@@ -18,7 +18,7 @@ import re
 
 
 # should create google_ledger object
-with open('keys/google_expenses_sheet_key.txt', 'r') as g_sheet_id_key_txt:
+with open('keys/google_expenses_sheet_key_dev.txt', 'r') as g_sheet_id_key_txt:
     GOOGLE_SHEET_ID_KEY = g_sheet_id_key_txt.readline().strip()
 
 gc = pygsheets.authorize(service_account_file='keys/service_account_credentials.json')
@@ -28,18 +28,27 @@ sh = gc.open_by_key(GOOGLE_SHEET_ID_KEY)
 
 #%% GOOGLE FUNCTIONS
 
-def load_and_process_sheet(sh=sh, tab=0):
+def load_and_process_sheet(sh=sh, tab=0, start_cell='A2'):
 
     w = sh.worksheet('index', tab)
-    ret_df = w.get_as_df(has_header=True, start='A2')
-    # dollars = ret_df.Amount.astype(str).str.extract(r'(\d+)')
-    # ret_df.loc[:, 'Amount'] = ret_df.Amount.astype(str).str.extract(r'(\d+)')
+    ret_df = w.get_as_df(has_header=True, start=start_cell)
+
     ret_df.Amount = ret_df.Amount.astype(str).str.extract(r'(\d+)')
-    # ret_df.loc[:, 'Timestamp'] = pd.to_datetime(ret_df.Timestamp)
+
     ret_df.Timestamp = pd.to_datetime(ret_df.Timestamp)
 
     return(ret_df.reset_index(drop=True))
-    # return(dollars)
+
+
+# def get_all_googlesheet_transactions(sh=sh):
+    
+#     colnames = ['Timestamp', 'Payee', 'Amount', 'Purpose', 'Description']
+    
+#     all_sheets = pd.DataFrame(columns = colnames)
+    
+    
+
+
 
 def load_and_process_all_sheets(sh=sh):
 
@@ -117,9 +126,7 @@ def get_trans_from_ynab(sh=sh, since_date=get_last_trns_date()):
                     (ynab_df.flag.isin(['red', 'purple']))]
         )
 
-    ret_df = pd.DataFrame(columns = ['Timestamp', 'Payee',
-                                                    'Amount', 'Purpose',
-                                                    'Description'])
+    ret_df = pd.DataFrame(columns = ['Timestamp', 'Payee', 'Amount', 'Purpose', 'Description'])
 
 
     ret_df.Timestamp = ynab_df_filter.timestamp.astype(str) + ' 00:00:00'
@@ -138,7 +145,7 @@ def get_trans_from_ynab(sh=sh, since_date=get_last_trns_date()):
     return(ret_df)
 
 
-
+#%%
 def get_expenses_from_google(sh=sh, since_date='1900-01-01'):
 
     colnames = ['Timestamp', 'Payee', 'Amount', 'Purpose', 'Description']

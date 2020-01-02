@@ -17,12 +17,12 @@ import validation_logic
 
 if __name__ == "__main__":
 
-    with open('keys/google_expenses_sheet_key.txt', 'r') as g_sheet_id_key_txt:
-        GOOGLE_SHEET_ID_KEY = g_sheet_id_key_txt.readline().strip()
+    # with open('keys/google_expenses_sheet_key_dev.txt', 'r') as g_sheet_id_key_txt:
+    #     GOOGLE_SHEET_ID_KEY = g_sheet_id_key_txt.readline().strip()
     
-    gc = pygsheets.authorize(service_account_file='keys/service_account_credentials.json')
+    # gc = pygsheets.authorize(service_account_file='keys/service_account_credentials.json')
     
-    sh = gc.open_by_key(GOOGLE_SHEET_ID_KEY)
+    # sh = gc.open_by_key(GOOGLE_SHEET_ID_KEY)
 
     def menu():
         while True:

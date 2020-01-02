@@ -1,0 +1,870 @@
+index,Timestamp,Payee,Amount,Purpose,Description
+0,2018-11-04 0:00:00,Ryder,164,for us,Archipelago
+1,2018-11-04 0:00:00,Ryder,44,for us,MP
+2,2018-11-05 6:11:00,Allison,55,for us,Dog walking 
+3,2018-11-05 18:26:28,Allison,20,for us,OP
+4,2018-11-07 0:00:00,Ryder,28,for us,Lion's
+5,2018-11-08 0:00:00,Ryder,5,for us,OP
+6,2018-11-09 0:00:00,Ryder,31,for us,Treats
+7,2018-11-09 0:00:00,Ryder,41,for us,Dog food
+8,2018-11-09 16:08:17,Allison,79,for us,PEPCO
+9,2018-11-10 7:08:20,Allison,108,for us,Fresh Direct
+10,2018-11-10 8:36:13,Allison,154,for us,Well Paid Maids - Thanksgiving 
+11,2018-11-10 17:14:44,Allison,53,for us,Nanner leaves 
+12,2018-11-11 0:00:00,Ryder,39,for us,la billa pizza
+13,2018-11-12 19:48:21,Allison,82,for us,Dog walking week 11/5
+14,2018-11-13 13:56:16,Allison,20,for us,Dog food
+15,2018-11-14 0:00:00,Ryder,41,for us,Jet. com dog food
+16,2018-11-15 0:00:00,Ryder,32,for us,op
+17,2018-11-17 0:00:00,Ryder,16,for us,Chicekn donuts
+18,2018-11-17 0:00:00,Ryder,55,for us,Right proper
+19,2018-11-17 0:00:00,Ryder,24,for us,Lyft
+20,2018-11-17 20:17:40,Allison,38,for us,Zipcar
+21,2018-11-18 0:00:00,Ryder,44,for us,BK
+22,2018-11-18 0:00:00,Ryder,33,for us,beyond bread
+23,2018-11-19 0:00:00,Ryder,9,for us,BR 31
+24,2018-11-20 0:00:00,Ryder,180,for us,Poca cosa
+25,2018-11-20 0:00:00,Ryder,29,for us,Tucson Tamale
+26,2018-11-21 0:00:00,Ryder,56,for us,Safeway tucson
+27,2018-11-22 0:00:00,Ryder,27,for us,Reilly beer
+28,2018-11-23 0:00:00,Ryder,23,for us,gas
+29,2018-11-23 0:00:00,Ryder,26,for us,beer
+30,2018-11-23 0:00:00,Allison,466,for us,Car rental
+31,2018-11-23 0:00:00,Ryder,36,for us,Ncounter lunch with adam
+32,2018-11-23 0:00:00,Ryder,49,for us,food city
+33,2018-11-24 0:00:00,Ryder,25,for us,taxi
+34,2018-11-24 17:51:28,Allison,48,for us,Bantam King
+35,2018-11-24 17:55:58,Allison,87,for us,Dog walking week of 11/12
+36,2018-11-24 18:08:25,Allison,24,for us,Beer and wine in PHX
+37,2018-11-25 0:00:00,Ryder,160,for us,Cole Camp
+38,2018-11-25 0:00:00,Ryder,5,for us,heat da spot
+39,2018-11-25 0:00:00,Allison,38,for us,Zipcar
+40,2018-11-25 0:00:00,Ryder,160,for us,Doggie camp
+41,2018-11-25 12:14:25,Allison,130,for us,Fresh Direct
+42,2018-11-25 16:02:53,Ryder,17,for us,Cheese and crackers 
+43,2018-11-26 16:07:08,Ryder,39,for us,Rye
+44,2018-11-26 18:14:52,Allison,16,for us,Target
+45,2018-11-26 18:16:17,Allison,21,for us,Cava
+46,2018-11-27 16:29:24,Ryder,30,for us,TJ
+47,2018-11-28 0:00:00,Ryder,413,for us,our part of cabin
+48,2018-11-28 0:00:00,Ryder,30,for us,Trader joes
+49,2018-11-29 0:00:00,Ryder,18,for us,OP
+50,2018-11-30 8:58:34,Allison,144,for us,Fresh Direct 
+51,2018-12-01 0:00:00,Ryder,82,for us,Dvines booze
+52,2018-12-02 0:00:00,Ryder,52,for us,OP
+53,2018-12-02 0:00:00,Ryder,39,for us,la villa pizza
+54,2018-12-02 8:03:51,Allison,289,for us,Rover
+55,2018-12-03 0:00:00,Ryder,30,for us,lyman's
+56,2018-12-03 18:45:02,Allison,55,for us,Dog walking 
+57,2018-12-04 0:00:00,Ryder,27,for us,OP
+58,2018-12-04 0:00:00,Ryder,49,for us,thip khao
+59,2018-12-05 9:54:59,Allison,39,for us,Emily and TRK celebration 
+60,2018-12-06 0:00:00,Ryder,12,for us,Dvines booze
+61,2018-12-07 15:43:47,Allison,37,for us,OP
+62,2018-12-08 8:00:07,Allison,83,for us,PEPCO
+63,2018-12-08 8:01:28,Allison,131,for us,Fresh Direct
+64,2018-12-08 8:28:43,Allison,16,for us,MLK Shabbat
+65,2018-12-08 13:13:09,Allison,35,for us,Target
+66,2018-12-09 0:00:00,Ryder,66,for us,call your mother
+67,2018-12-10 6:58:38,Allison,55,for us,Dog walking week 12/3
+68,2018-12-11 0:00:00,Ryder,13,for us,OP
+69,2018-12-11 18:04:39,Allison,22,for us,OP
+70,2018-12-12 0:00:00,Ryder,38,for us,la villa pizza
+71,2018-12-13 0:00:00,Ryder,22,for us,Zipcar
+72,2018-12-15 0:00:00,Ryder,20,for us,OP
+73,2018-12-15 8:25:26,Allison,81,for us,Fresh Direct
+74,2018-12-15 8:36:36,Allison,159,for us,Well Paid Maids 
+75,2018-12-16 0:00:00,Ryder,164,for us,Vet
+76,2018-12-16 0:00:00,Ryder,44,for us,OP
+77,2018-12-17 6:14:45,Allison,54,for us,Dog walking 
+78,2018-12-18 0:00:00,Ryder,23,for us,seltzer
+79,2018-12-19 0:00:00,Ryder,41,for us,dog food
+80,2018-12-22 0:00:00,Ryder,25,for us,Dvines booze
+81,2018-12-23 0:00:00,Ryder,66,for us,linens
+82,2018-12-24 0:00:00,Ryder,29,for us,sandos luray
+83,2018-12-24 0:00:00,Ryder,62,for us,front royal brewing
+84,2018-12-24 7:23:25,Allison,54,for us,Dog waking 
+85,2018-12-24 7:26:34,Allison,29,for us,Art print 
+86,2018-12-25 17:56:05,Allison,24,for us,Hawksbill Brewing
+87,2018-12-26 0:00:00,Ryder,65,for us,chinese
+88,2018-12-26 0:00:00,Ryder,31,for us,Azul
+89,2018-12-27 7:35:53,Allison,24,for us,Call Your Mother
+90,2018-12-27 18:34:12,Allison,92,for us,Fresh Direct
+91,2018-12-29 10:23:23,Allison,67,for us,Fresh Direct
+92,2018-12-29 18:06:36,Allison,59,for us,BKK
+93,2018-12-30 9:25:30,Allison,131,for us,Front Royal Brewing 
+94,2018-12-30 9:31:44,Allison,106,for us,Amazon - weighted blanket 
+95,2018-12-31 6:55:43,Allison,27,for us,Dog walking 12/26
+96,2019-01-01 6:41:17,Allison,60,for us,Dog bed 
+97,2019-01-02 0:00:00,Ryder,4,for us,Prime Video*M22YH3WR1 - NA
+98,2019-01-02 0:00:00,Ryder,4,for us,Prime Video*M253G9Y10 - NA
+99,2019-01-03 0:00:00,Ryder,175,for us,NAPOLI SUD PASTA BAR - NA
+100,2019-01-03 0:00:00,Ryder,18,for us,Odd Provisions - beer and groceries
+101,2019-01-04 16:18:09,Allison,42,for us,Toilet paper
+102,2019-01-06 8:11:24,Allison,129,for us,Fresh Direct 
+103,2019-01-07 0:00:00,Ryder,36,for us,Amazon.com*MB5373L00 - NA
+104,2019-01-07 0:00:00,Ryder,24,for us,Odd Provisions - SQU*SQ *ODD PROVISIONS
+105,2019-01-07 5:26:38,Allison,54,for us,Dog walking 
+106,2019-01-08 0:00:00,Ryder,63,for us,Amazon.com*MB4Y96ZH1 - NA
+107,2019-01-08 0:00:00,Ryder,41,for us,Amazon.com*MB4MW3NC0 - NA
+108,2019-01-08 18:35:38,Allison,14,for us,Dish towels 
+109,2019-01-09 0:00:00,Ryder,27,for us,Odd Provisions - SQU*SQ *ODD PROVISIONS
+110,2019-01-11 17:12:47,Allison,100,for us,Fresh Direct 
+111,2019-01-12 9:06:21,Allison,103,for us,PEPCO
+112,2019-01-12 10:47:45,Allison,27,for us,Beer
+113,2019-01-14 0:00:00,Ryder,39,for us,LA VILLA PIZZA - NA
+114,2019-01-14 0:00:00,Ryder,20,for us,Odd Provisions - SQU*SQ *ODD PROVISIONS
+115,2019-01-14 7:11:23,Allison,54,for us,Dog walking 
+116,2019-01-15 0:00:00,Ryder,23,for us,Amazon.com*MB6R68PH0 - NA
+117,2019-01-18 5:48:22,Allison,51,for us,Glucosamine 
+118,2019-01-18 19:58:36,Allison,56,for us,Bantam King
+119,2019-01-20 9:36:31,Allison,169,for us,Fresh Direct
+120,2019-01-21 0:00:00,Ryder,11,for us,ANNIES ACE HDWE - ANNIES ACE HDWE
+121,2019-01-21 0:00:00,Ryder,4,for us,GOOGLE *Google Play - GOOGLE *Google Play
+122,2019-01-21 0:00:00,Ryder,13,for us,GRAYS MARKET - GRAYS MARKET
+123,2019-01-21 0:00:00,Ryder,21,for us,PAYPAL *HOME DEPOT - PAYPAL *HOME DEPOT
+124,2019-01-21 0:00:00,Ryder,29,for us,YES ORGANIC #6 GEORGIA - YES ORGANIC #6 GEORGIA
+125,2019-01-21 0:00:00,Ryder,33,for us,SAFEWAY #2808 - SAFEWAY #2808
+126,2019-01-21 7:30:13,Allison,59,for us,Dog walking 
+127,2019-01-22 0:00:00,Ryder,159,for us,WELL-PAID MAIDS LLC - WELL-PAID MAIDS LLC
+128,2019-01-23 0:00:00,Ryder,110,for us,BAD SAINT - NA
+129,2019-01-25 0:00:00,Ryder,41,for us,Amazon.com*MB4WZ8XA2 - NA
+130,2019-01-25 0:00:00,Ryder,34,for us,Odd Provisions - SQU*SQ *ODD PROVISIONS
+131,2019-01-28 0:00:00,Ryder,51,for us,PAYPAL *PANTRYTHAISUSH - NA
+132,2019-01-28 0:00:00,Ryder,12,for us,GRAYS MARKET - GRAYS MARKET
+133,2019-01-28 12:46:48,Allison,55,for us,Dog walking
+134,2019-01-29 0:00:00,Ryder,98,for us,PAYPAL *FRESHDIRECT - PAYPAL *FRESHDIRECT
+135,2019-01-30 0:00:00,Ryder,32,for us,Amazon.com*MB3EE0KJ0 - NA
+136,2019-01-31 0:00:00,Ryder,30,for us,GRAYS MARKET - NA
+137,2019-01-31 0:00:00,Ryder,76,for us,SQ *CALL YOUR MOTHER - NA
+138,2019-02-01 17:13:24,Allison,45,for us,Haikan 
+139,2019-02-02 9:21:51,Allison,273,for us,Hotwire - San Fran hotel 
+140,2019-02-02 9:23:37,Allison,375,for us,Car rental CA
+141,2019-02-02 9:25:16,Allison,152,for us,Airbnb for LA
+142,2019-02-03 0:00:00,Ryder,41,for us,PANTRY THAI BISTRO AND - Thai Saturday night
+143,2019-02-04 0:00:00,Ryder,31,for us,ANNIES ACE HDWE - Shelf repair items
+144,2019-02-04 0:00:00,Ryder,38,for us,Odd Provisions - Beer for Lisa and Vlad and cream cheese
+145,2019-02-04 5:42:44,Allison,54,for us,Dog walking 
+146,2019-02-04 18:54:26,Allison,22,for us,Cava
+147,2019-02-04 18:55:17,Allison,29,for us,OP
+148,2019-02-04 20:08:22,Allison,19,for us,Target
+149,2019-02-07 0:00:00,Ryder,8,for us,Odd Provisions - NA
+150,2019-02-08 0:00:00,Ryder,4,for us,Odd Provisions - NA
+151,2019-02-09 19:58:59,Allison,13,for you,Derby!
+152,2019-02-09 20:13:24,Allison,107,for us,Booze 
+153,2019-02-10 0:00:00,Ryder,40,for us,Amazon.com*MI7PP3NC1 - dog food
+154,2019-02-10 7:16:09,Allison,151,for us,PEPCO
+155,2019-02-11 0:00:00,Ryder,142,for us,LITTLE HAVANA - NA
+156,2019-02-11 17:31:58,Allison,27,for us,Dog walking 
+157,2019-02-12 0:00:00,Ryder,78,for us,PAYPAL *1800PETMEDS - NA
+158,2019-02-12 0:00:00,Ryder,89,for us,PAYPAL *FRESHDIRECT - NA
+159,2019-02-13 0:00:00,Ryder,37,for us,LA VILLA PIZZA - NA
+160,2019-02-13 0:00:00,Ryder,32,for us,Zipcar - NA
+161,2019-02-13 0:00:00,Ryder,14,for us,SQU*SQ *IMPERIAL WINE - Beer for house
+162,2019-02-13 0:00:00,Ryder,13,for us,CVS - Peanut butter for house
+163,2019-02-14 0:00:00,Ryder,27,for us,Amazon.com*MI6U25EK1 - azul for spanglefeathers
+164,2019-02-16 8:02:19,Allison,159,for us,Well Paid Maids 3/7
+165,2019-02-16 9:12:24,Allison,92,for us,Fresh Direct 
+166,2019-02-17 0:00:00,Ryder,55,for us,EL CHUCHO COCINA SUPERIOR - NA
+167,2019-02-17 0:00:00,Ryder,17,for us,EL CHUCHO COCINA SUPERIOR - NA
+168,2019-02-17 7:10:59,Ryder,84,for you,Uniqlo puffer
+169,2019-02-18 0:00:00,Ryder,136,for us,FRIENDSHIP HOSPITAL - NA
+170,2019-02-18 0:00:00,Ryder,1,for us,PP*PP ROKU FOR FANDANG - Contact movie
+171,2019-02-18 5:44:23,Allison,54,for us,Dog walking 
+172,2019-02-19 0:00:00,Ryder,21,for us,SQ *COLONY CLUB - NA
+173,2019-02-20 0:00:00,Ryder,63,for us,Odd Provisions - NA
+174,2019-02-20 10:32:52,Allison,28,for us,Call Your Mother
+175,2019-02-20 16:32:46,Allison,88,for us,Instacart 
+176,2019-02-22 0:00:00,Ryder,21,for us,BEST BUY 00010926 - Car mount
+177,2019-02-22 2:26:07,Allison,24,for us,Uber to airport
+178,2019-02-24 0:00:00,Ryder,12,for us,SQ *THE BEER SHACK - Beer pdx cart
+179,2019-02-24 0:00:00,Ryder,27,for us,SQ *SALT & STRAW - Ice cream
+180,2019-02-25 0:00:00,Ryder,50,for us,NEW SEASONS MARKET # - snacks for hiking!
+181,2019-02-26 0:00:00,Ryder,156,for us,KACHKA - Our share of kachka?
+182,2019-02-26 0:00:00,Ryder,112,for us,SQ *CAVIAR - Food delivery pho
+183,2019-02-27 0:00:00,Ryder,37,for us,SQ *BLUE STAR DONUTS - MI - NA
+184,2019-02-28 0:00:00,Ryder,32,for us,DOUBLE MOUNTAIN BREWERY - Beer Oregon
+185,2019-03-01 0:00:00,Ryder,45,for us,SQ *FOXGLOVE - Hood River lunch
+186,2019-03-01 0:00:00,Ryder,7,for us,SEMIFREDDIS BAKERY - Berkeley breakfast
+187,2019-03-01 0:00:00,Ryder,2,for us,PDX KENNY & ZUKE DELI - Lacroix
+188,2019-03-01 0:00:00,Ryder,10,for us,"MONTEREY MARKET - coffee, snacks big sur/ monterey gas station"
+189,2019-03-02 0:00:00,Ryder,14,for us,SAFEWAY #676 - safeway in the big berk
+190,2019-03-03 0:00:00,Ryder,4,for us,SP * HEATH NEWSSTAND - Coffee SF before tartine
+191,2019-03-03 0:00:00,Ryder,33,for us,LYFT *RIDE SAT 11AM - East bay to SF
+192,2019-03-03 0:00:00,Ryder,34,for us,THE CHEESE BOARD COLLECTI - Pizza Berkeley
+193,2019-03-03 0:00:00,Ryder,8,for us,SQ *BLUE BOTTLE COFFEE - NA
+194,2019-03-04 0:00:00,Ryder,8,for us,PAYPAL *UBER - Sausalito bridge to city
+195,2019-03-04 0:00:00,Ryder,10,for us,LYFT *RIDE SAT 3PM - Lyft back from Oakland
+196,2019-03-04 0:00:00,Ryder,18,for us,Roses' Taproom - Oakland
+197,2019-03-04 0:00:00,Ryder,35,for us,ZOMBIE VILLAGE - Sf tiki
+198,2019-03-04 0:00:00,Ryder,78,for us,PAGAN IDOL - Tiki
+199,2019-03-04 0:00:00,Ryder,100,for us,TST* TARTINE MANUFACTORY - NA
+200,2019-03-04 0:00:00,Ryder,54,for us,SHAN DONG RESTAURANT - Oakland Chinese
+201,2019-03-04 0:00:00,Ryder,144,for us,KINKHAO - Thai SF
+202,2019-03-05 0:00:00,Ryder,68,for us,HULASISLANDGRILL - monterey dinner
+203,2019-03-05 0:00:00,Ryder,36,for us,LYFT *RIDE MON 9AM - lyft from sf to SFO
+204,2019-03-05 0:00:00,Ryder,66,for us,SQ *WURSTHALL - kenji
+205,2019-03-05 0:00:00,Ryder,25,for us,CLIPPER SERVICE #3202 - Ferry SF
+206,2019-03-05 0:00:00,Ryder,96,for us,SCOMAS RESTAURANT - SF chowder
+207,2019-03-05 0:00:00,Ryder,16,for us,LAPPERTS 689 - ice cream sausalito
+208,2019-03-05 0:00:00,Ryder,12,for us,LYFT *RIDE SUN 9PM - back from pizza dinner
+209,2019-03-05 0:00:00,Ryder,1,for us,CITY OF SM PW PARKING ME - NA
+210,2019-03-05 0:00:00,Ryder,16,for us,LYFT *RIDE SUN 6PM - lyft to al's place sf
+211,2019-03-05 0:00:00,Ryder,15,for us,LYFT *RIDE SUN 1PM - lyft to bridge sf
+212,2019-03-05 0:00:00,Ryder,3,for us,NORTHRIDGE FARMS - fruit stand Monterey
+213,2019-03-05 0:00:00,Ryder,0,for us,CITY OF SM PW PARKING ME - Travel
+214,2019-03-05 0:00:00,Ryder,31,for us,BLUESTONE LANE - 32 - 685 - breakfast SF
+215,2019-03-06 0:00:00,Ryder,6,for us,CARMEL HIGHLANDS GENERAL - pit stop road trip
+216,2019-03-06 0:00:00,Ryder,5,for us,BOARDWALK PARKING - santa cruz parking
+217,2019-03-06 0:00:00,Ryder,14,for us,ARCO #42413 AM ATASCADERO CA - POS PURCHASE POSARCO424 0150105
+218,2019-03-06 0:00:00,Ryder,14,for us,CHEVRON 0098345 - NA
+219,2019-03-06 0:00:00,Ryder,221,for us,JABBERWOCK INN - Jabberwock inn
+220,2019-03-07 0:00:00,Ryder,22,for us,MOBY DICK RESTAURANT - beer santa barbara
+221,2019-03-07 0:00:00,Ryder,45,for us,JABBERWOCK INN - Jabberwock Inn
+222,2019-03-07 0:00:00,Ryder,26,for us,SQ *GUISADOS - tacos la
+223,2019-03-08 0:00:00,Ryder,12,for us,SQ *DAYGLOW - LA coffee
+224,2019-03-08 0:00:00,Ryder,62,for us,CASTLE BBQ - korean LA
+225,2019-03-08 0:00:00,Ryder,26,for us,SQ *MOON JUICE - goopjuice
+226,2019-03-10 0:00:00,Ryder,12,for us,LYFT *RIDE THU 10PM - from MOZZA
+227,2019-03-10 0:00:00,Ryder,0,for us,LA CITY PARKING METER - NA
+228,2019-03-10 0:00:00,Ryder,11,for us,LYFT *RIDE THU 8PM - to Mozza
+229,2019-03-10 0:00:00,Ryder,11,for us,CHEVRON 0095418 - gas
+230,2019-03-10 0:00:00,Ryder,48,for us,TST* SQIRL - sqirl bx LA
+231,2019-03-10 0:00:00,Ryder,85,for us,Blue Water Grill - Santa - santa barb dinner
+232,2019-03-10 0:00:00,Ryder,161,for us,TST* PIZZERIA MOZZA - LA - pizza mozza LA
+233,2019-03-10 0:00:00,Ryder,16,for us,CHEVRON 0095418 - gas OC
+234,2019-03-13 12:11:36,Allison,85,for us,Fresh Direct
+235,2019-03-15 14:41:46,Allison,300,for us,Barry and Eliza wedding gift
+236,2019-03-16 12:25:18,Allison,41,for us,Zipcar to pick up Cole
+237,2019-03-16 12:25:30,Allison,460,for us,Cole’s summer camp fee 
+238,2019-03-16 12:39:10,Allison,18,for us,Tillamook ice cream 
+239,2019-03-16 12:43:44,Allison,38,for us,Bottle of wine in Santa Barbara (Renegade Wine)
+240,2019-03-16 12:44:03,Allison,12,for us,Snacks for car ride 
+241,2019-03-16 12:44:44,Allison,14,for us,Beer in LA (six pack)
+242,2019-03-16 12:45:47,Allison,17,for us,Yolk (cards in LA)
+243,2019-03-16 12:46:07,Allison,21,for us,Sandwiches on wedding day 
+244,2019-03-16 12:50:37,Allison,202,for us,First wine club delivery!
+245,2019-03-16 12:53:48,Allison,35,for us,Checked suit bag
+246,2019-03-16 12:55:32,Allison,473,for us,Marriott
+247,2019-03-16 12:56:01,Allison,58,for us,Allison Lyft home with luggage 
+248,2019-03-16 12:56:39,Allison,52,for us,Dory Deli
+249,2019-03-16 12:56:52,Allison,14,for us,Coffee in Silver Lake
+250,2019-03-16 12:57:25,Allison,228,for us,Dollar rent a car 
+251,2019-03-16 12:58:28,Allison,10,for us,Lyft in LA
+252,2019-03-16 12:58:44,Allison,12,for us,Lyft In LA
+253,2019-03-16 12:58:58,Allison,30,for us,TACOS
+254,2019-03-16 12:59:32,Allison,183,for us,Eagle Inn
+255,2019-03-16 12:59:46,Allison,10,for us,In-N-Out
+256,2019-03-16 13:00:01,Allison,11,for us,Coffee in Santa Barbara 
+257,2019-03-16 13:00:16,Allison,50,for us,Marker Hotel fee
+258,2019-03-16 13:00:51,Allison,292,for us,AL’s Place
+259,2019-03-16 13:03:21,Allison,9,for us,Lyft in SF
+260,2019-03-16 13:03:54,Allison,26,for us,Cellarmaker Brewing In SF
+261,2019-03-16 13:04:08,Allison,19,for us,Tartine snacks 
+262,2019-03-16 13:04:36,Allison,136,for us,Benchmark Pizza in Kensington
+263,2019-03-16 13:14:19,Allison,18,for us,Lyft to Oakland 
+264,2019-03-16 15:15:48,Allison,9,for us,Lyft to brewery in Oakland
+265,2019-03-16 15:16:51,Allison,10,for us,Lyft from Chez Panisse 
+266,2019-03-16 15:17:05,Allison,248,for us,Chez Panisse 
+267,2019-03-16 15:17:58,Allison,17,for us,Lyft from Oakland to Berkeley 
+268,2019-03-16 15:21:20,Allison,10,for us,Chai in Oakland
+269,2019-03-16 15:22:44,Allison,11,for us,Lyft to Chez Panisse 
+270,2019-03-16 15:23:08,Allison,31,for us,Food at PDX
+271,2019-03-16 15:23:36,Allison,37,for us,Lyft from OAK to Berkeley 
+272,2019-03-16 15:24:17,Allison,72,for us,Pfreim brewery lunch 
+273,2019-03-16 15:24:42,Allison,70,for us,Sparkling wine for Jessie and Avi and Barry
+274,2019-03-16 15:25:18,Allison,115,for us,Stone Barn Brandyworks 
+275,2019-03-16 15:25:59,Allison,45,for us,Bottle of Pinot Noir - Four Graces 
+276,2019-03-16 15:28:53,Allison,152,for us,Second half of Airbnb payment 
+277,2019-03-16 15:29:11,Allison,75,for us,Bottles of wine at Day Wine
+278,2019-03-16 15:29:37,Allison,15,for us,Snacks in Dallas airport
+279,2019-03-16 15:29:57,Allison,11,for us,Coffee in Portland 
+280,2019-03-16 15:31:01,Allison,107,for us,Kargi Go Go 
+281,2019-03-16 15:47:59,Allison,137,for us,Call Your Mother supper club!
+282,2019-03-17 18:31:03,Allison,99,for us,Fresh Direct
+283,2019-03-19 0:00:00,Ryder,36,for us,Amazon.com*MW8SS0OZ2 - hot sauces
+284,2019-03-19 0:00:00,Ryder,32,for you,AMZN Mktp US*MW9464J10 - sodastream - your part of it (I used my points for the rest
+285,2019-03-20 0:00:00,Ryder,4,for us,SQ *ODD PROVISIONS - fruits for breakfast
+286,2019-03-21 17:41:55,Allison,215,for us,Half of 4th of July Airbnb payment 
+287,2019-03-23 0:00:00,Allison,45,for you,Shirt oops
+288,2019-03-23 11:49:25,Allison,10,for us,Target
+289,2019-03-23 12:02:17,Allison,26,for us,OP
+290,2019-03-24 0:00:00,Ryder,73,for us,SQ *CALL YOUR MOTHER - NA
+291,2019-03-24 0:00:00,Ryder,34,for us,AMZN Mktp US*MW48K8050 - Hot sauce
+292,2019-03-24 12:19:05,Allison,13,for us,Uber
+293,2019-03-25 0:00:00,Ryder,111,for us,TST* GRAVITAS - NA
+294,2019-03-25 11:13:39,Allison,113,for us,Fresh Direct
+295,2019-03-26 9:01:55,Allison,27,for us,Dog walking last weeek
+296,2019-03-28 0:00:00,Ryder,40,for us,Amazon.com*MW6ZF2H31 - NA
+297,2019-03-29 14:21:48,Allison,14,for us,OP
+298,2019-03-30 6:13:36,Allison,134,for us,Fresh Direct
+299,2019-03-30 10:18:53,Allison,15,for us,Stamps
+300,2019-03-30 10:23:19,Allison,7,for us,Printer paper
+301,2019-03-31 0:00:00,Ryder,24,for us,SQ *ODD PROVISIONS - NA
+302,2019-03-31 12:04:39,Allison,18,for us,OP
+303,2019-03-31 15:11:01,Allison,14,for us,Lyft to Catherine and Micah
+304,2019-03-31 15:31:55,Allison,14,for us,Lyft
+305,2019-04-01 0:00:00,Ryder,8,for us,AMZN Mktp US*MW44J65I2 - NA
+306,2019-04-01 0:00:00,Ryder,138,for us,Maple - NA
+307,2019-04-01 7:06:21,Allison,54,for us,Dog walking 
+308,2019-04-01 7:07:01,Allison,13,for us,Extra Fios charges from switch 
+309,2019-04-05 0:00:00,Ryder,19,for us,AMZN Mktp US*MW02K7DH2 - wineskins
+310,2019-04-05 15:53:50,Allison,38,for us,Ruuuuum
+311,2019-04-06 6:45:38,Allison,128,for us,Fresh Direct
+312,2019-04-06 13:07:30,Allison,106,for us,Turbotax
+313,2019-04-07 12:16:53,Allison,59,for us,PEPCO
+314,2019-04-08 17:00:30,Allison,81,for us,Dog walking 
+315,2019-04-08 18:25:25,Allison,51,for us,Gluces 
+316,2019-04-10 0:00:00,Ryder,50,for us,PAYPAL *FRESHDIRECT - NA
+317,2019-04-12 0:00:00,Ryder,99,for us,TST* PAPPE - NA
+318,2019-04-12 17:13:07,Allison,42,for us,Who Gives a Crap
+319,2019-04-13 0:00:00,Allison,134,for you,shelf
+320,2019-04-13 0:00:00,Ryder,50,for us,booze from costco
+321,2019-04-13 5:48:22,Allison,140,for us,Fresh Direct 
+322,2019-04-13 10:08:32,Allison,22,for us,Wine
+323,2019-04-13 11:01:46,Allison,43,for us,Target
+324,2019-04-14 0:00:00,Ryder,12,for us,GRAYS MARKET
+325,2019-04-14 7:11:08,Allison,8,for us,New shower curtain liner 
+326,2019-04-15 0:00:00,Ryder,60,for us,POSTMATES 52487 PANTRY - 
+327,2019-04-15 9:00:23,Allison,54,for us,Dog walking 
+328,2019-04-17 0:00:00,Ryder,41,for us,Amazon.com*MZ8VG8LH2 - Dog food
+329,2019-04-18 17:34:30,Allison,36,for us,Greenies 
+330,2019-04-19 0:00:00,Ryder,99,for us,Meridian Pint
+331,2019-04-19 11:48:44,Allison,22,for us,OP
+332,2019-04-19 11:48:56,Allison,24,for us,Compost bin!
+333,2019-04-19 17:44:57,Allison,193,for us,Fresh Direct 
+334,2019-04-21 0:00:00,Ryder,36,for us,POSTMATES 52487 DISTRI
+335,2019-04-21 0:00:00,Ryder,71,for us,SQ *CALL YOUR MOTHER
+336,2019-04-22 15:47:31,Allison,7,for us,Anniversary ice cream 
+337,2019-04-23 17:51:18,Allison,54,for us,Dog walking 
+338,2019-04-26 14:30:11,Allison,84,for us,Fresh Direct delivery pass renewal
+339,2019-04-26 16:55:53,Allison,39,for us,Za!
+340,2019-04-27 6:30:56,Allison,128,for us,Fresh Direct 
+341,2019-04-28 0:00:00,Ryder,23,for us,TARGET        00022590
+342,2019-04-28 0:00:00,Ryder,15,for us,"SQ *78 ACRES, LLC"
+343,2019-04-28 0:00:00,Ryder,29,for us,SQ *ODD PROVISIONS
+344,2019-04-28 12:41:29,Allison,13,for us,Paint supplies 
+345,2019-04-29 0:00:00,Ryder,32,for us,BED BATH & BEYOND #1177
+346,2019-04-30 6:07:31,Allison,54,for us,Dog walking 
+347,2019-04-30 18:34:57,Allison,11,for us,&pizza
+348,2019-05-03 0:00:00,Ryder,14,for us,Odd Provisions
+349,2019-05-05 0:00:00,Ryder,15,for us,SQ *ODD PROVISIONS
+350,2019-05-05 0:00:00,Ryder,14,for us,SQ *PLEITEZ PRODUCE FARM
+351,2019-05-05 17:31:37,Allison,51,for us,OP
+352,2019-05-05 17:42:56,Allison,105,for us,Fresh Direct 
+353,2019-05-06 0:00:00,Ryder,550,for you,ALLISON GROSSMAN RECEIVER - ACH WEBSINGLE XXXXX2807
+354,2019-05-07 0:00:00,Ryder,41,for us,Amazon.com*MZ6RF1W72 - Dog food
+355,2019-05-08 0:00:00,Ryder,6,for us,Amazon.com*MN5JL5CD0 - Batteries
+356,2019-05-08 18:08:39,Allison,10,for us,Taxi
+357,2019-05-09 0:00:00,Ryder,72,for us,SQ *CALL YOUR MOTHER REST - 
+358,2019-05-10 0:00:00,Ryder,20,for us,Amazon.com*MN6AX9AC1 - janet's moday gift
+359,2019-05-10 18:10:13,Allison,69,for us,Caviar 
+360,2019-05-11 6:44:35,Allison,10,for us,Bamboo paper towels 
+361,2019-05-11 6:58:55,Allison,81,for us,Dog walking 
+362,2019-05-11 10:36:07,Allison,69,for us,EPG BDAY
+363,2019-05-12 0:00:00,Allison,229,for us,Day wines
+364,2019-05-12 0:00:00,Ryder,15,for us,SQ *ODD PROVISIONS
+365,2019-05-12 0:00:00,Ryder,35,for us,SQ *NO KISSES BAR
+366,2019-05-12 0:00:00,Ryder,16,for us,SQ *NO KISSES BAR
+367,2019-05-12 0:00:00,Ryder,23,for us,SQ *NO KISSES BAR
+368,2019-05-12 0:00:00,Ryder,72,for us,Amazon - Instant pot mom
+369,2019-05-12 0:00:00,Ryder,16,for us,SQ *NO KISSES BAR
+370,2019-05-12 6:56:56,Allison,133,for us,Fresh Direct 
+371,2019-05-12 7:00:02,Allison,50,for us,La Villa
+372,2019-05-12 12:11:29,Allison,81,for us,Dog walking 
+373,2019-05-12 15:26:04,Allison,19,for us,Target
+374,2019-05-12 18:14:41,Allison,50,for us,Patti’s Mother’s Day present 
+375,2019-05-14 0:00:00,Ryder,25,for us,Amazon.com*MN72O10G1 - Whisk and masher
+376,2019-05-15 0:00:00,Ryder,12,for us,SQ *ODD PROVISIONS - Beer
+377,2019-05-16 0:00:00,Ryder,20,for us,SQ *JUSTAJ'S FOODS (FORME - Vegan sausages
+378,2019-05-16 0:00:00,Ryder,14,for us,SQ *PLEITEZ PRODUCE FARM
+379,2019-05-19 0:00:00,Ryder,42,for us,SQ *CAVIAR - Timber pizza
+380,2019-05-19 0:00:00,Ryder,13,for us,Odd Provisions - Beer
+381,2019-05-19 0:00:00,Ryder,13,for us,Odd Provisions - Beer
+382,2019-05-19 0:00:00,Ryder,42,for us,SQ *CAVIAR - Timber pizza
+383,2019-05-19 0:00:00,Ryder,28,for us,Odd Provisions
+384,2019-05-19 0:00:00,Ryder,28,for us,Odd Provisions
+385,2019-05-19 3:50:22,Allison,104,for us,Fresh Direct
+386,2019-05-22 12:28:29,Allison,54,for us,Dog walking 
+387,2019-05-24 0:00:00,Ryder,48,for us,Call Your Mother - Bagels and challah Shabbat shalom
+388,2019-05-24 16:24:30,Allison,13,for us,Lyft 
+389,2019-05-25 0:00:00,Ryder,9,for us,Farmers Market - Strawberries
+390,2019-05-25 0:00:00,Ryder,32,for us,Odd Provisions - Beer for Memorial Day weekend
+391,2019-05-25 0:00:00,Ryder,41,for us,Amazon - Dog food
+392,2019-05-25 0:00:00,Allison,137,for us,Fresh Direct
+393,2019-05-25 0:00:00,Allison,16,for you,Dr. Bronner's
+394,2019-05-25 0:00:00,Ryder,9,for us,Farmers Market - Strawberries
+395,2019-05-25 0:00:00,Ryder,32,for us,Odd Provisions - Beer for Memorial Day weekend 
+396,2019-05-25 0:00:00,Ryder,41,for us,Amazon - Dog food
+397,2019-05-26 0:00:00,Ryder,3,for us,PAYPAL *UBER - Uber from Bree’s
+398,2019-05-26 0:00:00,Ryder,76,for us,Amazon - Glucosamine dasiquin
+399,2019-05-26 0:00:00,Ryder,8,for us,PAYPAL *UBER - Uber from Bree’s
+400,2019-05-26 0:00:00,Ryder,77,for us,Midlands - Beer garden
+401,2019-05-27 0:00:00,Ryder,19,for us,CVS - Memorial day breakfast things
+402,2019-05-27 15:13:40,Allison,19,for you,Rhinocort
+403,2019-05-27 15:13:40,Allison,19,for you,Rhinocort
+404,2019-05-27 15:13:58,Allison,12,for us,Dog treats 
+405,2019-05-27 15:13:58,Allison,12,for us,Dog treats 
+406,2019-05-27 15:26:58,Allison,81,for us,Dog walking 
+407,2019-05-27 15:26:58,Allison,81,for us,Dog walking 
+408,2019-05-29 0:00:00,Ryder,82,for us,TST* REDROCKS - COLUMBIA - 
+409,2019-05-29 0:00:00,Ryder,82,for us,TST* REDROCKS - COLUMBIA - 
+410,2019-05-29 0:00:00,Ryder,82,for us,TST* REDROCKS - COLUMBIA -
+411,2019-05-29 4:54:16,Allison,51,for us,Fresh Direct 
+412,2019-05-29 4:54:16,Allison,51,for us,Fresh Direct 
+413,2019-06-01 12:13:18,Allison,54,for us,Amazon
+414,2019-06-02 0:00:00,Ryder,14,for us,SQ *PLEITEZ PRODUCE
+415,2019-06-02 18:28:37,Allison,54,for us,Dog walking 
+416,2019-06-05 0:00:00,Ryder,14,for us,SQ *ODD PROVISIONS - Beer run
+417,2019-06-05 0:00:00,Ryder,9,for us,AMZN Mktp US*M65XN7A91 - Staples
+418,2019-06-05 0:00:00,Ryder,36,for us,Zipcar - Vet Zipcar
+419,2019-06-06 0:00:00,Ryder,52,for us,SQ *CAVIAR
+420,2019-06-08 0:00:00,Ryder,10,for us,Farmers Market - Berries
+421,2019-06-08 17:37:56,Allison,99,for us,Midlands 
+422,2019-06-09 0:00:00,Ryder,11,for us,Giant
+423,2019-06-09 0:00:00,Ryder,21,for us,SQ *ODD PROVISIONS
+424,2019-06-09 0:00:00,Ryder,26,for us,SQ *CALL YOUR MOTHER REST
+425,2019-06-09 9:50:02,Allison,93,for us,SLEATER-KINNEY 
+426,2019-06-09 9:52:30,Allison,29,for us,Fresh Direct 
+427,2019-06-09 9:53:06,Allison,74,for us,PEPCO
+428,2019-06-09 10:04:22,Allison,159,for us,Well Paid Maids
+429,2019-06-09 10:04:56,Allison,130,for us,AZ thanksgiving car rental deposit 
+430,2019-06-09 10:56:54,Allison,23,for us,Amazon 
+431,2019-06-09 18:21:34,Allison,54,for us,Dog walking 
+432,2019-06-12 0:00:00,Ryder,41,for us,Amazon.com*M61HO6A20 - 
+433,2019-06-15 8:18:02,Allison,15,for us,Cherries 
+434,2019-06-15 8:18:40,Allison,32,for us,Soda stream refill 
+435,2019-06-15 8:19:16,Allison,10,for us,Target 
+436,2019-06-15 8:28:56,Allison,119,for us,Fresh Direct 
+437,2019-06-18 17:15:09,Allison,108,for us,Dog walking 
+438,2019-06-20 0:00:00,Ryder,34,for us,SQ *ODD PROVISIONS
+439,2019-06-21 0:00:00,Ryder,441,for us,Friendship Animal hospital
+440,2019-06-21 18:11:26,Allison,44,for us,Caviar
+441,2019-06-22 9:03:12,Allison,26,for us,Lion’s
+442,2019-06-22 9:03:46,Allison,116,for us,Fresh Direct 
+443,2019-06-22 16:32:25,Allison,19,for us,Target
+444,2019-06-23 0:00:00,Ryder,37,for us,SQ *CALL YOUR MOTHER REST
+445,2019-06-23 0:00:00,Ryder,27,for us,Odd Provisions
+446,2019-06-24 0:00:00,Ryder,22,for us,SQU*SQ *THREE SPRINGS
+447,2019-06-24 0:00:00,Ryder,4,for us,"SQU*SQ *78 ACRES, LLC"
+448,2019-06-24 0:00:00,Ryder,27,for us,Odd Provisions
+449,2019-06-24 0:00:00,Ryder,19,for us,Odd Provisions
+450,2019-06-25 8:25:33,Allison,45,for us,Dani’s gift 
+451,2019-06-25 8:26:34,Allison,81,for us,Dog walking 
+452,2019-06-26 0:00:00,Ryder,113,for us,NAKEDWINES.COM INC - 
+453,2019-06-27 20:29:31,Allison,16,for us,Target
+454,2019-06-28 0:00:00,Ryder,26,for us,CVS - Batteries
+455,2019-06-28 0:00:00,Ryder,26,for us,CVS - Batteries
+456,2019-06-28 18:12:44,Allison,35,for us,El Chucho
+457,2019-06-28 18:15:04,Allison,215,for us,Second half 4th of July Airbnb
+458,2019-06-29 0:00:00,Ryder,20,for us,Odd Provisions
+459,2019-06-30 0:00:00,Ryder,28,for us,SQ *CALL YOUR MOTHER REST - For house - challah and cc
+460,2019-06-30 0:00:00,Ryder,31,for us,Amazon.com*MH4NI0TE1 - Liver treats
+461,2019-06-30 14:31:27,Allison,58,for us,Lyft home from Annapolis 
+462,2019-06-30 14:32:11,Allison,11,for us,Lyft to Annapolis 
+463,2019-06-30 14:38:13,Allison,31,for us,Dog mat 
+464,2019-07-01 0:00:00,Ryder,14,for us,SQ *ODD PROVISIONS
+465,2019-07-01 0:00:00,Ryder,29,for us,"SQU*SQ *78 ACRES, LLC - fruits"
+466,2019-07-01 8:54:41,Allison,32,for us,Wine skins 
+467,2019-07-01 12:20:30,Allison,104,for us,Maketto
+468,2019-07-01 16:55:39,Allison,22,for us,Biergarten Haus
+469,2019-07-02 0:00:00,Ryder,41,for us,Amazon.com*MH1CU1Z12 - Dog food
+470,2019-07-03 0:00:00,Ryder,22,for us,LEVELUP*CAVA125086280
+471,2019-07-03 4:42:30,Allison,144,for us,Fresh Direct 
+472,2019-07-04 0:00:00,Ryder,35,for us,Odd Provisions - treats for trip
+473,2019-07-05 0:00:00,Ryder,11,for us,PAYPAL *UBER - To pick up rental
+474,2019-07-06 0:00:00,Ryder,9,for us,7-ELEVEN 15904 - water for trip
+475,2019-07-06 0:00:00,Ryder,9,for us,7-ELEVEN 15904 - water for trip
+476,2019-07-07 0:00:00,Ryder,252,for us,Budget Rent A Car
+477,2019-07-07 0:00:00,Ryder,2,for us,Dc Parking Meters
+478,2019-07-07 0:00:00,Ryder,24,for us,Exxon - Gas
+479,2019-07-07 0:00:00,Ryder,63,for us,Amazon - New bed
+480,2019-07-07 0:00:00,Ryder,23,for us,GATHERING GROUNDS PATISSE - Sandos
+481,2019-07-07 15:42:25,Allison,189,for us,Dog sitting + walking 
+482,2019-07-07 15:43:37,Allison,52,for us,Toilet paper 
+483,2019-07-07 15:50:03,Allison,51,for us,Drinks at maketto
+484,2019-07-07 15:50:50,Allison,38,for us,La Villa
+485,2019-07-07 16:59:10,Allison,56,for us,Funny’s
+486,2019-07-08 0:00:00,Ryder,29,for us,Odd Provisions
+487,2019-07-08 0:00:00,Ryder,25,for us,SQ *BEFORE & AFTER
+488,2019-07-08 0:00:00,Ryder,20,for us,WM SUPERCENTER #2564
+489,2019-07-10 0:00:00,Ryder,13,for us,SQ *ODD PROVISIONS
+490,2019-07-12 0:00:00,Ryder,40,for us,SQ *CALL YOUR MOTHER REST
+491,2019-07-12 0:00:00,Ryder,41,for us,LA VILLA PIZZA
+492,2019-07-12 7:32:29,Allison,75,for us,Fresh Direct 
+493,2019-07-12 14:34:14,Allison,70,for us,PEPCO
+494,2019-07-13 0:00:00,Ryder,14,for us,Odd Provisions
+495,2019-07-13 0:00:00,Ryder,80,for us,FRIENDSHIP HOSPITAL
+496,2019-07-13 0:00:00,Ryder,29,for us,Odd Provisions
+497,2019-07-14 0:00:00,Ryder,22,for us,SQ *EL SABOR DEL TACO
+498,2019-07-14 15:08:12,Allison,10,for us,Wine uber
+499,2019-07-15 0:00:00,Ryder,19,for us,"SQU*SQ *78 ACRES, LLC"
+500,2019-07-16 0:00:00,Ryder,8,for us,STARBUCKS STORE 00748
+501,2019-07-17 0:00:00,Ryder,11,for us,72779 - HILLMAN GARAGE
+502,2019-07-18 8:29:47,Allison,12,for us,Uber home from Convivial
+503,2019-07-18 8:31:28,Allison,72,for us,Amazon - frontline and greenies 
+504,2019-07-18 8:32:30,Allison,85,for us,Zipcar to Annapolis 
+505,2019-07-18 8:33:17,Allison,54,for us,Dog walking 
+506,2019-07-18 8:33:53,Allison,69,for us,Call Your Mother 
+507,2019-07-20 0:00:00,Ryder,13,for us,Odd Provisions
+508,2019-07-20 9:00:38,Allison,90,for us,Fresh Direct 
+509,2019-07-21 15:39:00,Allison,54,for us,Dog walking 
+510,2019-07-21 16:53:05,Allison,54,for us,Sonny’s 
+511,2019-07-22 0:00:00,Ryder,41,for us,Amazon.com*MA0DF7FG1
+512,2019-07-22 0:00:00,Ryder,17,for us,"SQU*SQ *78 ACRES, LLC"
+513,2019-07-22 0:00:00,Ryder,5,for us,SQU*SQ *RAVENHOOK BAKE - 
+514,2019-07-24 0:00:00,Ryder,17,for us,SQ *SQ *CALL YOUR MOTH - 
+515,2019-07-25 0:00:00,Ryder,34,for us,"Zipcar - Rental — not putting car2go in here, they’re about the same total but C2G is like 15 transactions"
+516,2019-07-25 0:00:00,Ryder,57,for us,Odd Provisions
+517,2019-07-25 0:00:00,Ryder,41,for us,Zipcar - Failed colebug run
+518,2019-07-25 10:11:55,Allison,27,for us,Zipcar
+519,2019-07-27 0:00:00,Ryder,39,for us,D VINES
+520,2019-07-27 7:13:30,Allison,59,for us,Fresh Direct 
+521,2019-07-28 0:00:00,Ryder,17,for us,GRAYS MARKET
+522,2019-07-29 0:00:00,Ryder,28,for us,"SQU*SQ *78 ACRES, LLC"
+523,2019-07-29 0:00:00,Ryder,5,for us,SQU*SQ *RAVENHOOK BAKE - 
+524,2019-07-31 10:55:53,Allison,27,for us,Zipcar 
+525,2019-07-31 17:33:16,Allison,22,for us,Zipcar
+526,2019-08-01 0:00:00,Ryder,547,for you,FRIENDSHIP HOSPITAL
+527,2019-08-02 0:00:00,Ryder,29,for us,Odd Provisions
+528,2019-08-02 0:00:00,Ryder,40,for you,KP MAS ON-LINE BILL PA - allison endo
+529,2019-08-03 4:55:39,Allison,61,for us,Fresh Direct
+530,2019-08-04 9:40:15,Allison,68,for us,Dog walking 
+531,2019-08-04 9:40:15,Allison,68,for us,Dog walking 
+532,2019-08-04 17:30:50,Allison,49,for us,Air filters 
+533,2019-08-04 17:30:50,Allison,49,for us,Air filters 
+534,2019-08-05 0:00:00,Ryder,6,for us,SQU*SQ *RAVENHOOK BAKE
+535,2019-08-05 0:00:00,Ryder,21,for us,"SQU*SQ *78 ACRES, LLC"
+536,2019-08-05 0:00:00,Ryder,40,for us,Odd Provisions
+537,2019-08-05 0:00:00,Ryder,40,for us,Odd Provisions
+538,2019-08-05 0:00:00,Ryder,6,for us,SQU*SQ *RAVENHOOK BAKE
+539,2019-08-05 0:00:00,Ryder,21,for us,"SQU*SQ *78 ACRES, LLC"
+540,2019-08-05 20:10:44,Allison,41,for us,Kol Nidre tickets 
+541,2019-08-05 20:10:44,Allison,41,for us,Kol Nidre tickets 
+542,2019-08-06 0:00:00,Ryder,26,for us,SQ *ODD PROVISIONS
+543,2019-08-06 0:00:00,Ryder,26,for us,SQ *ODD PROVISIONS
+544,2019-08-06 8:16:58,Allison,22,for us,Fresh Direct 
+545,2019-08-06 8:16:58,Allison,22,for us,Fresh Direct 
+546,2019-08-07 0:00:00,Ryder,51,for us,SQ *CAVIAR
+547,2019-08-07 0:00:00,Ryder,12,for us,Odd Provisions
+548,2019-08-07 0:00:00,Ryder,51,for us,SQ *CAVIAR
+549,2019-08-07 0:00:00,Ryder,12,for us,Odd Provisions
+550,2019-08-09 0:00:00,Ryder,27,for us,Odd Provisions
+551,2019-08-09 0:00:00,Ryder,27,for us,Odd Provisions
+552,2019-08-09 14:56:03,Allison,80,for us,PEPCO
+553,2019-08-09 14:56:03,Allison,80,for us,PEPCO
+554,2019-08-11 0:00:00,Ryder,603,for us,LAKE POINTE INN ECOM - Deep creek
+555,2019-08-11 0:00:00,Ryder,603,for us,LAKE POINTE INN ECOM - Deep creek
+556,2019-08-11 0:00:00,Ryder,23,for us,SQUARE *SQ *COLONY CLU
+557,2019-08-11 0:00:00,Ryder,23,for us,SQUARE *SQ *COLONY CLU
+558,2019-08-12 0:00:00,Ryder,18,for us,SQ *SQ *EL SABOR DEL T
+559,2019-08-12 0:00:00,Ryder,12,for us,"SQU*SQ *78 ACRES, LLC"
+560,2019-08-12 0:00:00,Ryder,6,for us,SQU*SQ *THREE SPRINGS
+561,2019-08-12 0:00:00,Ryder,4,for us,Giant
+562,2019-08-12 0:00:00,Ryder,5,for us,SQU*SQ *RAVENHOOK BAKE
+563,2019-08-12 0:00:00,Ryder,18,for us,SQ *SQ *EL SABOR DEL T
+564,2019-08-12 0:00:00,Ryder,4,for us,Giant
+565,2019-08-12 0:00:00,Ryder,12,for us,"SQU*SQ *78 ACRES, LLC"
+566,2019-08-12 0:00:00,Ryder,41,for us,Amazon.com*MA7O75HM0
+567,2019-08-12 0:00:00,Ryder,5,for us,SQU*SQ *RAVENHOOK BAKE
+568,2019-08-12 0:00:00,Ryder,6,for us,SQU*SQ *THREE SPRINGS
+569,2019-08-12 0:00:00,Ryder,41,for us,Amazon.com*MA7O75HM0
+570,2019-08-12 5:06:34,Allison,95,for us,Fresh Direct 
+571,2019-08-12 5:06:34,Allison,95,for us,Fresh Direct 
+572,2019-08-12 5:07:17,Allison,54,for us,Dog walking 
+573,2019-08-12 5:07:17,Allison,54,for us,Dog walking 
+574,2019-08-12 16:38:58,Allison,50,for us,Amazon 
+575,2019-08-12 16:38:58,Allison,50,for us,Amazon 
+576,2019-08-13 0:00:00,Ryder,31,for us,Odd Provisions
+577,2019-08-13 0:00:00,Ryder,31,for us,Odd Provisions
+578,2019-08-14 0:00:00,Ryder,159,for us,WELL-PAID MAIDS LLC
+579,2019-08-14 0:00:00,Ryder,159,for us,WELL-PAID MAIDS LLC
+580,2019-08-14 16:31:21,Allison,13,for us,OP
+581,2019-08-14 16:31:21,Allison,13,for us,OP
+582,2019-08-15 0:00:00,Ryder,14,for us,SHIPT* MONTHLY MEMBERS
+583,2019-08-15 0:00:00,Ryder,14,for us,SHIPT* MONTHLY MEMBERS
+584,2019-08-17 0:00:00,Ryder,26,for us,SQ *SQ *CALL YOUR MOTH
+585,2019-08-17 0:00:00,Ryder,26,for us,SQ *SQ *CALL YOUR MOTH
+586,2019-08-17 7:42:09,Allison,95,for us,Fresh Direct 
+587,2019-08-17 7:42:09,Allison,95,for us,Fresh Direct 
+588,2019-08-18 19:02:28,Allison,52,for us,Funny’s 
+589,2019-08-18 19:02:28,Allison,52,for us,Funny’s 
+590,2019-08-18 19:21:37,Allison,106,for us,LAST ZIPCAR
+591,2019-08-18 19:21:37,Allison,106,for us,LAST ZIPCAR
+592,2019-08-18 19:22:29,Allison,108,for us,Dog walking 
+593,2019-08-18 19:22:29,Allison,108,for us,Dog walking 
+594,2019-08-19 0:00:00,Ryder,63,for us,THE MIDLANDS BEER GA
+595,2019-08-19 0:00:00,Ryder,63,for us,THE MIDLANDS BEER GA
+596,2019-08-19 0:00:00,Ryder,15,for us,VENMO PAYMENT - ACH WEBSINGLE XXXXX3489 fruit stand
+597,2019-08-19 0:00:00,Ryder,15,for us,VENMO PAYMENT - ACH WEBSINGLE XXXXX3489 fruit stand
+598,2019-08-19 0:00:00,Ryder,6,for us,SQU*SQ *RAVENHOOK BAKE
+599,2019-08-19 0:00:00,Ryder,6,for us,SQU*SQ *RAVENHOOK BAKE
+600,2019-08-20 0:00:00,Ryder,126,for us,Amazon Prime
+601,2019-08-20 0:00:00,Ryder,25,for us,Odd Provisions
+602,2019-08-20 0:00:00,Ryder,126,for us,Amazon Prime
+603,2019-08-20 0:00:00,Ryder,25,for us,Odd Provisions
+604,2019-08-23 0:00:00,Ryder,35,for us,SQ *SQ *UNION KITCHEN
+605,2019-08-23 0:00:00,Ryder,35,for us,SQ *SQ *UNION KITCHEN
+606,2019-08-24 0:00:00,Ryder,114,for us,ANXO CIDERY & PINTXOS
+607,2019-08-24 0:00:00,Ryder,114,for us,ANXO CIDERY & PINTXOS
+608,2019-08-24 9:15:42,Allison,17,for us,farmer’s Market 
+609,2019-08-24 9:15:42,Allison,17,for us,farmer’s Market 
+610,2019-08-24 13:03:33,Allison,49,for us,OP
+611,2019-08-24 13:03:33,Allison,49,for us,OP
+612,2019-08-25 0:00:00,Ryder,46,for us,TST* BEAU THAI - MOUNT PL
+613,2019-08-25 0:00:00,Ryder,47,for us,PAYPAL *FANDANGO
+614,2019-08-25 0:00:00,Ryder,47,for us,PAYPAL *FANDANGO
+615,2019-08-25 0:00:00,Ryder,15,for us,SQ *CALL YOUR MOTHER REST
+616,2019-08-25 0:00:00,Ryder,46,for us,TST* BEAU THAI - MOUNT PL
+617,2019-08-25 0:00:00,Ryder,15,for us,SQ *CALL YOUR MOTHER REST
+618,2019-08-25 6:31:24,Allison,116,for us,Fresh Direct
+619,2019-08-25 6:31:24,Allison,116,for us,Fresh Direct
+620,2019-08-25 8:00:57,Allison,89,for us,Liberty Mutual
+621,2019-08-25 8:00:57,Allison,89,for us,Liberty Mutual
+622,2019-08-26 0:00:00,Ryder,57,for us,SQ *SONNY'S PIZZA DC
+623,2019-08-26 0:00:00,Ryder,57,for us,SQ *SONNY'S PIZZA DC
+624,2019-08-28 0:00:00,Ryder,75,for us,CHECK 148 086589 - Ben Lila wedding CHECK 148 086589223
+625,2019-08-28 0:00:00,Ryder,75,for us,CHECK 148 086589 - Ben Lila wedding CHECK 148 086589223
+626,2019-08-30 0:00:00,Ryder,53,for us,AMZN Mktp US*MO91U0HH1
+627,2019-08-30 0:00:00,Ryder,53,for us,AMZN Mktp US*MO91U0HH1
+628,2019-08-30 16:00:11,Allison,17,for us,Uber
+629,2019-08-30 16:00:11,Allison,17,for us,Uber
+630,2019-09-01 0:00:00,Ryder,20,for us,2654 AMC BAR GEORGETOWN
+631,2019-09-01 0:00:00,Ryder,20,for us,2654 AMC BAR GEORGETOWN
+632,2019-09-02 0:00:00,Ryder,13,for us,Lion's
+633,2019-09-02 0:00:00,Ryder,40,for us,BANDOOLA BOWL
+634,2019-09-02 0:00:00,Ryder,40,for us,BANDOOLA BOWL
+635,2019-09-02 0:00:00,Ryder,13,for us,Lion's
+636,2019-09-03 12:07:54,Allison,105,for us,Fresh Direct 
+637,2019-09-03 12:07:54,Allison,105,for us,Fresh Direct 
+638,2019-09-03 12:11:18,Allison,81,for us,Dog walking 
+639,2019-09-03 12:11:18,Allison,81,for us,Dog walking 
+640,2019-09-03 18:51:33,Allison,74,for us,CHANCE
+641,2019-09-03 18:51:33,Allison,74,for us,CHANCE
+642,2019-09-05 15:23:20,Allison,17,for us,Whole Foods
+643,2019-09-05 15:23:20,Allison,17,for us,Whole Foods
+644,2019-09-06 0:00:00,Ryder,14,for us,GRAYS MARKET
+645,2019-09-06 0:00:00,Ryder,14,for us,GRAYS MARKET
+646,2019-09-06 0:00:00,Ryder,14,for us,GRAYS MARKET
+647,2019-09-07 5:27:40,Allison,50,for us,Postmates
+648,2019-09-07 5:27:40,Allison,50,for us,Postmates
+649,2019-09-07 5:32:58,Allison,121,for us,Fresh Direct 
+650,2019-09-07 5:32:58,Allison,121,for us,Fresh Direct 
+651,2019-09-07 7:53:20,Allison,67,for us,Midlands 8/25
+652,2019-09-07 7:53:20,Allison,67,for us,Midlands 8/25
+653,2019-09-09 0:00:00,Ryder,60,for us,TAIPEI CAFE
+654,2019-09-09 0:00:00,Ryder,5,for us,SQU*SQ *RAVENHOOK BAKE
+655,2019-09-09 0:00:00,Ryder,26,for us,Odd Provisions
+656,2019-09-09 0:00:00,Ryder,17,for us,"SQU*SQ *78 ACRES, LLC"
+657,2019-09-09 0:00:00,Ryder,7,for us,SQ *SQ *SOUTH MOUNTAIN
+658,2019-09-09 0:00:00,Ryder,25,for us,SQ *SONNY'S PIZZA DC
+659,2019-09-10 5:49:21,Allison,81,for us,Dog walking 
+660,2019-09-10 5:49:21,Allison,81,for us,Dog walking 
+661,2019-09-11 11:39:11,Allison,71,for us,PEPCO
+662,2019-09-11 11:39:11,Allison,71,for us,PEPCO
+663,2019-09-13 0:00:00,Ryder,36,for us,Kc Intermission - Beer at show
+664,2019-09-13 14:51:08,Allison,21,for us,OP
+665,2019-09-13 14:51:08,Allison,21,for us,OP
+666,2019-09-14 0:00:00,Ryder,16,for us,FENWICK BEER AND WINE
+667,2019-09-14 13:54:30,Allison,26,for us,OP
+668,2019-09-14 13:54:30,Allison,26,for us,OP
+669,2019-09-15 0:00:00,Ryder,11,for us,LYFT   *RIDE SAT 4PM
+670,2019-09-15 0:00:00,Ryder,14,for us,Amazon - Fan
+671,2019-09-15 0:00:00,Ryder,11,for us,78 Acres - Fruit
+672,2019-09-15 0:00:00,Ryder,11,for us,LYFT   *RIDE SAT 11PM
+673,2019-09-15 0:00:00,Ryder,7,for us,Ravenhook - Bread
+674,2019-09-15 7:00:40,Allison,122,for us,Fresh Direct 
+675,2019-09-15 7:00:40,Allison,122,for us,Fresh Direct 
+676,2019-09-15 7:36:36,Allison,20,for us,Cab home from Kennedy Center 
+677,2019-09-15 7:36:36,Allison,20,for us,Cab home from Kennedy Center 
+678,2019-09-15 11:52:41,Allison,32,for us,Cartridges 
+679,2019-09-15 11:56:42,Allison,3,for us,PB
+680,2019-09-16 0:00:00,Ryder,7,for us,Odd Provisions
+681,2019-09-16 0:00:00,Ryder,50,for us,THE MIDLANDS BEER GA
+682,2019-09-16 9:26:17,Allison,108,for us,Dog walk 
+683,2019-09-17 0:00:00,Ryder,163,for us,PAYPAL *EBAY 800456322 - Car cover trunk
+684,2019-09-17 6:36:40,Allison,8,for us,Amazon
+685,2019-09-17 6:36:52,Allison,6,for us,Amazon
+686,2019-09-18 0:00:00,Ryder,41,for us,Amazon.com*TO2IW2RP3
+687,2019-09-20 0:00:00,Ryder,27,for us,FENWICK BEER AND WINE
+688,2019-09-20 8:07:57,Allison,169,for us,Well Paid Maids
+689,2019-09-21 8:04:23,Allison,6,for us,Amazon
+690,2019-09-21 8:06:33,Allison,112,for us,Calexico and Iron and Wine 
+691,2019-09-21 10:34:14,Allison,91,for us,Car insurance 
+692,2019-09-22 0:00:00,Ryder,15,for us,SQ *EL SABOR DEL TACO
+693,2019-09-22 0:00:00,Ryder,52,for us,Bun DC
+694,2019-09-22 15:31:31,Allison,108,for us,Dog walking 
+695,2019-09-22 16:22:19,Allison,14,for us,OP
+696,2019-09-22 16:23:04,Allison,140,for us,Fresh Direct
+697,2019-09-22 16:25:04,Allison,22,for us,Lion’s 
+698,2019-09-22 16:25:12,Allison,20,for us,Kimchi 
+699,2019-09-23 0:00:00,Ryder,40,for us,SIXTH AND I
+700,2019-09-23 0:00:00,Ryder,10,for us,"SQU*SQ *78 ACRES, LLC"
+701,2019-09-23 0:00:00,Ryder,57,for us,DCREYNOLDS
+702,2019-09-25 0:00:00,Ryder,19,for us,Odd Provisions
+703,2019-09-27 0:00:00,Ryder,25,for us,CAVA MEZZE GRILL SILVER
+704,2019-09-27 8:44:17,Allison,52,for us,Toilet paper 
+705,2019-09-29 0:00:00,Ryder,11,for us,STICKY FINGERS SWEETS
+706,2019-09-29 0:00:00,Ryder,16,for us,EXXONMOBIL    48268221 - Deep creek trip gas 
+707,2019-09-30 0:00:00,Ryder,7,for us,Falls market - Ice cream
+708,2019-09-30 0:00:00,Allison,7,for us,ice cream
+709,2019-09-30 0:00:00,Ryder,47,for us,Brenda’s Pizzeria
+710,2019-09-30 0:00:00,Ryder,7,for us,half a tank of more gas (using the other half tank for commuting)
+711,2019-09-30 0:00:00,Ryder,64,for us,Fallingwater
+712,2019-09-30 0:00:00,Ryder,20,for us,Ohiopyle Bakery - Sandos 
+713,2019-09-30 0:00:00,Ryder,7,for us,LAKE POINTE INN ECOM - Drinks
+714,2019-09-30 0:00:00,Ryder,69,for us,Aces Run - Aces run
+715,2019-09-30 0:00:00,Allison,81,for us,dog walking 
+716,2019-09-30 0:00:00,Ryder,30,for us,Bun DC
+717,2019-10-01 14:55:43,Allison,25,for us,Target
+718,2019-10-04 16:53:07,Allison,45,for us,‘Za
+719,2019-10-06 16:11:02,Allison,54,for us,Dog walking 
+720,2019-10-06 18:06:21,Allison,131,for us,Fresh Direct 
+721,2019-10-07 0:00:00,Ryder,14,for us,Odd Provisions
+722,2019-10-07 0:00:00,Ryder,34,for us,SQ *SONNY'S PIZZA DC
+723,2019-10-07 0:00:00,Ryder,62,for us,AMZN Mktp US*AN85V5D53 - Dog food and hot sauce
+724,2019-10-08 0:00:00,Ryder,59,for us,MCG ABS MONTROSE - Vermouth and Bourbon
+725,2019-10-09 0:00:00,Ryder,19,for us,SPOTHERO 844-356-8054 - YK parking
+726,2019-10-10 0:00:00,Ryder,48,for us,NANDO'S OF 7TH STR
+727,2019-10-10 0:00:00,Ryder,47,for us,Giant - Giant YK break fast
+728,2019-10-10 0:00:00,Ryder,40,for us,Odd Provisions - Cottage cheese and beer
+729,2019-10-12 0:00:00,Ryder,20,for us,Farmers Market
+730,2019-10-12 0:00:00,Ryder,5,for us,Ravenhook
+731,2019-10-12 10:59:16,Allison,92,for us,Fresh direct 
+732,2019-10-12 11:04:47,Allison,265,for us,"Dog sitting - no credit received, will revise as needed "
+733,2019-10-12 14:29:02,Allison,61,for us,PEPCO
+734,2019-10-13 0:00:00,Ryder,27,for us,SQ *SONNY'S PIZZA DC - Beer (got Ron’s for him)
+735,2019-10-13 0:00:00,Ryder,34,for us,Odd Provisions
+736,2019-10-14 11:19:35,Allison,157,for us,#guacdowntheaisle wedding gift 
+737,2019-10-14 11:49:32,Allison,152,for us,Cara and Zack wedding gift 
+738,2019-10-15 11:05:31,Allison,39,for us,Dog walking minus credit 
+739,2019-10-17 0:00:00,Ryder,169,for us,FRIENDSHIP HOSPITAL
+740,2019-10-17 0:00:00,Ryder,53,for us,FENWICK BEER AND WINE
+741,2019-10-18 16:50:17,Allison,23,for us,OP
+742,2019-10-20 0:00:00,Ryder,81,for us,Bun DC
+743,2019-10-20 0:00:00,Ryder,9,for us,LYFT   *RIDE THU 10PM
+744,2019-10-20 9:36:45,Allison,60,for us,Little Coco’s
+745,2019-10-20 9:37:08,Allison,49,for us,Champagne 
+746,2019-10-20 10:20:21,Allison,66,for us,Fresh Direct 
+747,2019-10-20 10:31:51,Allison,10,for us,Lyft to Little Coco’s
+748,2019-10-20 10:32:17,Allison,11,for you,CYM
+749,2019-10-20 10:33:03,Allison,216,for us,Day Wines
+750,2019-10-21 0:00:00,Ryder,4,for us,Prime Video*KW61Z6Q63 - American Hustle
+751,2019-10-21 7:29:50,Allison,54,for us,Dog walking 
+752,2019-10-24 0:00:00,Ryder,41,for us,Amazon.com*IR9Z071A3
+753,2019-10-27 0:00:00,Ryder,5,for us,SQ *RAVENHOOK BAKEHOUSE
+754,2019-10-27 0:00:00,Ryder,265,for us,FRIENDSHIP HOSPITAL
+755,2019-10-27 0:00:00,Ryder,31,for us,SHAKE SHACK - 1204
+756,2019-10-27 0:00:00,Ryder,21,for us,THE ANTHEM
+757,2019-10-27 0:00:00,Ryder,16,for us,THE ANTHEM
+758,2019-10-27 0:00:00,Ryder,7,for us,"SQ *78 ACRES, LLC"
+759,2019-10-28 0:00:00,Ryder,33,for us,TST* CALL YOUR MOTHER: A
+760,2019-10-28 0:00:00,Ryder,32,for us,SQ *ODD PROVISIONS
+761,2019-10-28 8:05:46,Allison,31,for us,Lyft to wedding. 
+762,2019-10-28 9:25:22,Allison,44,for us,Fresh Direct 
+763,2019-10-28 16:05:20,Allison,81,for us,Dog walking 
+764,2019-10-28 18:26:29,Allison,84,for us,Fresh Direct delivery pass 
+765,2019-10-28 19:04:30,Allison,384,for us,Airbnb part 1
+766,2019-10-30 0:00:00,Ryder,48,for us,GIANT 0125
+767,2019-11-01 18:17:36,Allison,25,for us,OP
+768,2019-11-02 17:46:46,Allison,20,for us,Salt and Pepper
+769,2019-11-03 0:00:00,Ryder,5,for us,SQ *RAVENHOOK BAKEHOUSE
+770,2019-11-03 0:00:00,Ryder,9,for us,SQ *COLUMBIA HEIGHTS FARM - Pastries
+771,2019-11-03 0:00:00,Ryder,8,for us,"SQ *78 ACRES, LLC"
+772,2019-11-03 7:02:10,Allison,70,for us,Fresh Direct
+773,2019-11-03 8:06:48,Allison,169,for us,Well Paid Maids 
+774,2019-11-04 17:10:04,Allison,108,for us,Dog walking 
+775,2019-11-06 0:00:00,Ryder,31,for us,Amazon.com*EH61S5EG3 - Liver treats
+776,2019-11-07 18:11:31,Allison,36,for us,Caviar 
+777,2019-11-08 0:00:00,Ryder,11,for us,PETCO 1704 63517049 - Bitter yuck
+778,2019-11-08 7:36:41,Allison,64,for us,PEPCO
+779,2019-11-10 0:00:00,Ryder,16,for us,LYFT   *RIDE SAT 9AM
+780,2019-11-10 0:00:00,Ryder,30,for us,THEBEERANDWINECELLAR
+781,2019-11-11 0:00:00,Ryder,19,for us,WHOLEFDS ORV #10664
+782,2019-11-11 0:00:00,Ryder,6,for us,DUNKIN #348515 Q35
+783,2019-11-11 0:00:00,Ryder,22,for us,WHOLEFDS ORV #10664
+784,2019-11-12 0:00:00,Ryder,33,for us,LYFT   *RIDE SUN 9AM
+785,2019-11-12 14:42:09,Allison,45,for us,Odd Provisions 
+786,2019-11-12 14:42:50,Allison,22,for us,Cab from airport 
+787,2019-11-12 14:44:17,Allison,54,for us,Dog walking 
+788,2019-11-12 14:44:56,Allison,280,for us,Cleveland Hotel
+789,2019-11-12 15:00:09,Allison,447,for us,JetBlue flights 
+790,2019-11-12 15:01:20,Allison,172,for you,Southwest flight 
+791,2019-11-12 15:04:29,Allison,30,for us,Checked bag 
+792,2019-11-12 15:05:10,Allison,19,for us,Shake Shack
+793,2019-11-13 17:10:17,Allison,28,for us,Soup
+794,2019-11-14 0:00:00,Ryder,41,for us,Amazon.com*3G0WO4693
+795,2019-11-14 0:00:00,Ryder,4,for us,MARRIOTT W PALM BEACH
+796,2019-11-16 7:18:33,Allison,118,for us,Fresh Direct
+797,2019-11-16 13:45:35,Allison,27,for us,Whole Foods
+798,2019-11-17 0:00:00,Ryder,14,for us,SQ *RAVENHOOK BAKEHOUSE
+799,2019-11-17 0:00:00,Ryder,12,for us,SQ *ODD PROVISIONS
+800,2019-11-17 0:00:00,Ryder,11,for us,"SQ *78 ACRES, LLC"
+801,2019-11-17 5:45:32,Allison,10,for us,Uber
+802,2019-11-18 0:00:00,Ryder,117,for us,TST* TEQUILA & MEZCAL - Ben and Debbie dinner
+803,2019-11-18 0:00:00,Ryder,14,for us,D'VINES
+804,2019-11-18 0:00:00,Ryder,18,for us,SQ *SONNY'S PIZZA DC
+805,2019-11-18 0:00:00,Ryder,34,for us,SQ *SONNY'S PIZZA DC
+806,2019-11-18 0:00:00,Ryder,34,for us,TST* CALL YOUR MOTHER: A
+807,2019-11-18 10:30:33,Allison,433,for us,Extended dog sitting 
+808,2019-11-19 0:00:00,Ryder,5,for us,77 Market
+809,2019-11-20 18:51:09,Allison,7,for us,OP
+810,2019-11-22 16:48:54,Allison,17,for us,Dog food
+811,2019-11-23 15:57:22,Allison,49,for us,Beau Thai
+812,2019-11-24 0:00:00,Ryder,56,for us,Poco And Moms
+813,2019-11-24 0:00:00,Ryder,25,for us,FRIENDSHIP HOSPITAL
+814,2019-11-24 0:00:00,Ryder,14,for us,SQ *EL SABOR DEL TA
+815,2019-11-24 3:26:40,Allison,37,for us,Uber to airport 
+816,2019-11-26 0:00:00,Ryder,14,for us,IN N OUT BURGER 153
+817,2019-11-26 0:00:00,Ryder,37,for us,Amazon.com*GB1302UX3 - Combo cooker
+818,2019-11-26 0:00:00,Ryder,25,for us,BEYOND BREAD CAMPBELL
+819,2019-11-26 0:00:00,Ryder,24,for us,SQ *CASA VIDEO
+820,2019-11-27 0:00:00,Ryder,13,for us,LYFT   *RIDE MON 8PM - Back from Thomas’s house
+821,2019-11-27 0:00:00,Ryder,9,for us,SQ *RAGING SAGE COFFEE
+822,2019-11-28 0:00:00,Ryder,23,for us,TST* TEN55 BREWING COMPAN
+823,2019-11-28 0:00:00,Ryder,20,for us,EL GUERO CANELO
+824,2019-11-30 0:00:00,Ryder,57,for us,WALGREENS #6599
+825,2019-11-30 18:08:54,Allison,53,for us,Pane Bianco
+826,2019-11-30 18:10:14,Allison,47,for us,Books for kids 
+827,2019-12-02 0:00:00,Ryder,30,for us,PANE BIANCO
+828,2019-12-03 0:00:00,Ryder,25,for us,SIMPLE MACHINE BREWING
+829,2019-12-04 0:00:00,Ryder,34,for us,SQ *ALEXANDRIA VIP CAB 16
+830,2019-12-04 10:29:04,Allison,87,for us,Fresh Direct 
+831,2019-12-05 0:00:00,Ryder,24,for us,TAYLOR GOURMET
+832,2019-12-05 0:00:00,Ryder,60,for us,BLANCO TACOS T4 N2 PHX
+833,2019-12-05 0:00:00,Ryder,50,for us,VENMO PAYMENT - ACH WEBSINGLE XXXXX9475
+834,2019-12-06 0:00:00,Ryder,41,for us,Amazon.com*2966Q3973
+835,2019-12-06 0:00:00,Ryder,27,for us,GREATBIGSTUFF.COM - noodle potholder
+836,2019-12-06 15:47:49,Allison,50,for us,Beau Thai
+837,2019-12-07 8:03:32,Allison,47,for us,Floor mats 
+838,2019-12-07 11:07:00,Allison,237,for us,Car rental 
+839,2019-12-07 13:44:50,Allison,32,for us,Soda Stream
+840,2019-12-07 13:45:13,Allison,20,for us,Target 
+841,2019-12-08 0:00:00,Ryder,22,for us,SQ *COUNTRY VITTLES
+842,2019-12-08 0:00:00,Ryder,21,for us,Amazon.com*ZE4Y327J3 - Fixed car mount
+843,2019-12-08 0:00:00,Ryder,5,for us,SQ *KING MUSHROOM FARM
+844,2019-12-08 0:00:00,Ryder,6,for us,SQ *PLEITEZ PRODUCE FARM
+845,2019-12-08 0:00:00,Ryder,14,for us,"SQ *78 ACRES, LLC"
+846,2019-12-08 6:17:14,Allison,72,for us,PEPCO
+847,2019-12-09 0:00:00,Ryder,280,for us,PAYPAL INST XFER - ACH WEB-SINGLE PTRIANDOS
+848,2019-12-09 0:00:00,Ryder,49,for us,SQ *SONNY'S PIZZA DC
+849,2019-12-11 0:00:00,Ryder,20,for us,Amazon.com*EO0377693 - Dish pods
+850,2019-12-13 0:00:00,Ryder,69,for us,Amazon.com*3K8P108H3 - Dasiquin 
+851,2019-12-14 16:28:59,Allison,79,for us,All the GF flour
+852,2019-12-14 16:29:42,Allison,10,for us,Thrive Market Subscription 
+853,2019-12-14 16:30:37,Allison,384,for us,Airbnb x2
+854,2019-12-15 0:00:00,Ryder,12,for you,LEVELUPCAVA166748175
+855,2019-12-15 7:21:11,Allison,106,for us,Fresh Direct
+856,2019-12-15 13:32:10,Allison,21,for us,O Earth Bakery
+857,2019-12-15 13:33:35,Allison,81,for us,Dog walking 
+858,2019-12-18 0:00:00,Ryder,70,for us,YES ORGANIC #6 GEORGIA
+859,2019-12-18 11:41:00,Allison,93,for us,Amazon
+860,2019-12-19 0:00:00,Ryder,34,for us,AMZN Mktp US*0F5RX9843
+861,2019-12-20 10:37:58,Allison,52,for us,Toilet Paper
+862,2019-12-20 15:40:21,Allison,62,for you,"Fresh Direct - your share, Biennial week"
+863,2019-12-22 7:03:55,Allison,151,for us,Fresh Direct
+864,2019-12-29 17:22:52,Allison,72,for us,Purple Patch
+865,2019-12-30 0:00:00,Allison,51,for us,barbeque
+866,2019-12-30 0:00:00,Allison,8,for us,tip
+867,2019-12-30 6:14:30,Allison,142,for us,Fresh Direct
+868,2019-12-30 16:52:26,Allison,19,for us,Whole Foods
