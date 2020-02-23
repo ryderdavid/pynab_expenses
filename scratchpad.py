@@ -39,3 +39,37 @@ history.reset_index(level=0, inplace=True)
 
 #%%
 history.to_csv('transaction_history.csv', index=False)
+
+
+
+
+#%%
+
+def get_all_googlesheet_transactions(sh=sh):
+    
+    colnames = ['Timestamp', 'Payee', 'Amount', 'Purpose', 'Description']
+    
+    all_sheets = pd.DataFrame(columns = colnames)
+    
+    this_month = sh.worksheet(property='title', value='This_Month').get_as_df()
+    
+    return(this_month)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

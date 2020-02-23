@@ -14,8 +14,6 @@ from datetime import datetime as dt
 import time
 import re
 
-os.chdir(r'C:\Users\ryder\Projects\pynab_expenses')
-
 
 
 #%% Main Functions
@@ -269,6 +267,8 @@ def get_last_transaction_date(spender_name, spreadsheet, format='string'):
 def filter_and_prep_new_ynab_transactions(ynab_tx, 
                                           goog_tx, 
                                           since_date):
+    
+    
     
     _since_date = dt.strptime(since_date, '%Y-%m-%d')
 

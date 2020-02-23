@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pynab-expenses",
+  "private_key_id": "16dce750ffd93e06559d13fe4fca5a09d5cc03d6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrbsj3/xCjv7NE\n2tG0GrVMKKZVLgEo91FDiuKNgrmECuKMrF1J+sIHmUoSvdZEjLA6gWEb7lKOSo/E\nazIgT1nLBcbObU/x9HANM0J8Ud+FAlTUqToNnGoyN8coVv/J0muOk79i8JeblZPo\nIJa2g3OTvBhOOJpxjb94Ad/JsfwtV+cTer1L1yQawLyI6WhiFvl0Vdj4pVCIFzji\nKpkN5tQhQcMGnT3v4cIE1XRq9BDg6CqF2+Vi5oUju724qiZLE70hI0cjOzv0Uz7Q\n271t9VfcJsZu797dfa4w7Eppo2mPke1zwpzZN1YBp4+deWj/Y+EHPy0d/AqGWT5I\n96JV70MhAgMBAAECggEAE5kCmHcsK8wKbmClgHVdLGupOCueLlS3kYUbCRpcot+r\nrnE16PMlo0C+2w2gpQ2AR+/qbgr8nQ+hB89JV7A6j58FbyvH690JwjiN7TBe4RG3\nKOh/nna3HS6LMe1gKG5JpW72fhUK/9pFok+3av30BHuIO8j0vu55aPqt3pzeO0CV\nAh5Hqfl/bC1bqsvw/h1py6YPTj6bIDdfasni0Pjv5uf+iil31qqvGAZfSMZ52QaI\n1YV6qfbJPBEa4iaeGtiFGzhjU+P+QiI5Z7yTVYxqABlZ9XvZ7nz3tKyhIiukpCTM\nXMvi2j7zLjH4xylEddSbDl7sqDD9TqphqYQ/kN6LAQKBgQDtGUKWOi4whlSq/DGj\nX7DJfluBsHPtI8MQQPtkLvk4hdBf/mHkLT6w1IGkd1z1vrf1yapJHolYIoUDE3PD\n7V5yTFYfxpt9+7EgnNoa6VtjEFt4JPZjTA3RZH2SU/N8Ph8TFb44scQf51+ubiDY\nid+sT4TdzgXAQK4IY/gDi2PaGQKBgQC5GWgQ6xOmb336lRGTMBq+WB5Swt2On2zo\n//7EbENGmR93ddkli1UZkgC8KYSzjDz9g82OEko0bLNHlkNcKl0iywvNatygpjMD\ne9T49pmywzSdd0pHr9E9X+XXbNypZVrHuXJuDw9ACoX3j8WCr26UkJHi0cBAK2/h\nbii5RMziSQKBgFkaNhjo0nTv9p+vWSQxkOmYL+FkI5zJ5MOV+COlN4mTWETK/5TV\noAqqQfJB3VCJFO8sk28ZJ7pUdrI6PDY0XVsM7wzQAZ1t2hoMeDbG3c4z1nwnP+T/\nLu4zGrHEFOvrGJh+glciDzeCJ0YRIwzde45w79i/VQ/z/rMuhoUmfCb5AoGBAI7t\nzWvy+fN0+ER8w1tys9PzW0bw7gBpnsG0m1e1eaWUK7YlLA5PruDV2vdw3+V9DsN7\n+UgRW3dr0Gwg3dbXZ5+sRmrSb5clfxLbljLAySI+lexZ5uPAIcRQvrxAdYvgld7P\nlkriGhaLibMGM6+cI7lYgS4yZU+nuvbKB2w4cjTxAoGAVUkxiGY+XnVxQUX+sM7/\nsu336iXn/2/RoiafgREEo1iU5ZnpbnbcDefR2Bpc4TIloRamTE4eciOVXJqGUP92\ncvMrW0dcImhiSgPDdfJZqdQuh3g0TLCfLw3X3HHGYSMOt1JvUSlVUygxLUz+fewn\nd/3qQK+N9aNhqKqCvO0dM34=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ryder-pynab-expenses@pynab-expenses.iam.gserviceaccount.com",
+  "client_id": "117678279949668986775",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ryder-pynab-expenses%40pynab-expenses.iam.gserviceaccount.com"
+}

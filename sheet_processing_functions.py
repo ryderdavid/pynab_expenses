@@ -90,7 +90,7 @@ def get_last_trns_date(sh=sh, payee_name = 'Ryder', format = 'datetime'):
         return(__max_date.strftime('%Y-%m-%d'))
 
 
-#%%
+#%%#
 def get_trans_from_ynab(sh=sh, since_date=get_last_trns_date()):
 
     # since_date = get_last_trns_date()
